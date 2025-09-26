@@ -40,17 +40,17 @@ Présentation : j'ai 18 ans et j'habite a Goincourt je joue au foot a Saint-Paul
 Prénom : pseudo
 Présentation :
 
-Prénom : pseudo
+Prénom : pseudoS
 Présentation :
 
 Prénom : pseudo
 Présentation :
 
 Prénom : pseudo
-Présentation :
+Présentation : 
 
-Prénom : pseudo
-Présentation :
+Antony : BABAHOMER1
+Présentation :j'ai 18 ans,je suis en bts CIEL,passioné de voiture
 
 Prénom : pseudo
 Présentation :
