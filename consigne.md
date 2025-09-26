@@ -37,11 +37,11 @@ Présentation : Je suis un élève du BTS CIEL, je suis une personne passioné d
 Lucas : Mr-LucGour
 Présentation : j'ai 18 ans et j'habite a Goincourt je joue au foot a Saint-Paul en Seniors
 
-Prénom : pseudo
-Présentation :
+Amine : sahbi60
+Présentation : Je suis élève en BTS Ciel au lycée P. Langevin
 
 Prénom : pseudo
-Présentation :
+Présentation : 
 
 Prénom : pseudo
 Présentation :
