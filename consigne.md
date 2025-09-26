@@ -37,8 +37,11 @@ Présentation : Je suis un élève du BTS CIEL, je suis une personne passioné d
 Lucas : Mr-LucGour
 Présentation : j'ai 18 ans et j'habite a Goincourt je joue au foot a Saint-Paul en Seniors
 
-Prénom : pseudo
-Présentation :
+Priam : Zolex
+Présentation : 19 ans et je me fais baiser mon permis 
+
+Kénan : 01234567891011121314151617181920
+Présentation : abcdefghijklmnopqrstuvwxyz0123456789&é"'(-è_çà)=^$ù*,;:!<>°+¨£%µ?./§² J'ai 18 ans et je prefère utiliser nano au lieu de vi pour modifer des fichers de texte (en code).
 
 Prénom : pseudo
 Présentation :
@@ -55,9 +58,6 @@ Présentation :
 Prénom : Halil
 Présentation : c'est Halil, 18ans, permùifié, jlai eu en 2 fois, la 1er fois
  ses btrd j'avais eu 19.5, la monitrice de merde elle pue sa race
-
-Prénom : pseudo
-Présentation :
 
 Prénom : pseudo
 Présentation :
