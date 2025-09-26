@@ -28,3 +28,38 @@ git commit -m "blablabla"
 git push origin main
 
 git status
+
+## 📖 Livre d'or : 
+
+Valentin : EZYomi
+Présentation : Je suis un élève du BTS CIEL, je suis une personne passioné d'informatique depuis mon enfance.
+
+Prénom : Lucas Gourdain
+Présentation : j'ai 18 ans et j'habite a Goincourt je joue au foot a Saint-Paul en Seniors
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
