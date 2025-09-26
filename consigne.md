@@ -28,3 +28,38 @@ git commit -m "blablabla"
 git push origin main
 
 git status
+
+## 📖 Livre d'or : 
+
+Valentin : EZYomi
+Présentation : Je suis un élève du BTS CIEL, je suis une personne passioné d'informatique depuis mon enfance.
+
+Prénom : pseudo
+Présentation : 
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
