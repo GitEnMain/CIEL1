@@ -34,7 +34,7 @@ git status
 Valentin : EZYomi
 Présentation : Je suis un élève du BTS CIEL, je suis une personne passioné d'informatique depuis mon enfance.
 
-Prénom : Lucas Gourdain
+Lucas : Mr-LucGour
 Présentation : j'ai 18 ans et j'habite a Goincourt je joue au foot a Saint-Paul en Seniors
 
 Priam : Zolex
