@@ -40,8 +40,8 @@ Présentation : j'ai 18 ans et j'habite a Goincourt je joue au foot a Saint-Paul
 Priam : Zolex
 Présentation : 19 ans et je me fais baiser mon permis 
 
-Prénom : pseudo
-Présentation :
+Kénan : 01234567891011121314151617181920
+Présentation : abcdefghijklmnopqrstuvwxyz0123456789&é"'(-è_çà)=^$ù*,;:!<>°+¨£%µ?./§² J'ai 18 ans et je prefère utiliser nano au lieu de vi pour modifer des fichers de texte (en code).
 
 Prénom : pseudo
 Présentation :
