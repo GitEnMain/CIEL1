@@ -37,8 +37,8 @@ Présentation : Je suis un élève du BTS CIEL, je suis une personne passioné d
 Prénom : Lucas Gourdain
 Présentation : j'ai 18 ans et j'habite a Goincourt je joue au foot a Saint-Paul en Seniors
 
-Prénom : pseudo
-Présentation :
+Priam : Zolex
+Présentation : 19 ans et je me fais baiser mon permis 
 
 Prénom : pseudo
 Présentation :
