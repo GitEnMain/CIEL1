@@ -29,15 +29,41 @@ git push origin main
 
 git status
 
-  
-  Nom et prénom : Lethiais Enzo
-  Date de naissance : 30 Août 2007
-  Lieu de résidence : Montreuil-sur-Thérain 
-  
-  Autres informations :
-  - Possède le permis
-  - Possède un bac STL avec mention bien
-  - Groupes préférés : Linkin Park, System of a Down, Rammestein, Slipknot
-  - Musiques préférées : Numb, ATWA, Before I Forget, Deutschland 
-  - Animé du moment / JOJO's Bizarre Advanture "Stone Ocean"
+
    
+=======
+## 📖 Livre d'or : 
+
+Valentin : EZYomi
+Présentation : Je suis un élève du BTS CIEL, je suis une personne passioné d'informatique depuis mon enfance.
+
+Lucas : Mr-LucGour
+Présentation : j'ai 18 ans et j'habite a Goincourt je joue au foot a Saint-Paul en Seniors
+
+Enzo : salutoi3008
+Présentation : Je suis un étudiant en première années de BTS Ciel, j'habite à Montreuil-sur-Thérain et je suis une personne qui aime régarder des animés et écouter Linkin Park
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+
+Prénom : pseudo
+Présentation :
+>>>>>>> eb9b480e5d585792e3d204cec5cc9b82ea3c5965
