@@ -38,7 +38,7 @@ Lucas : Mr-LucGour
 Présentation : j'ai 18 ans et j'habite a Goincourt je joue au foot a Saint-Paul en Seniors
 
 killyan : rivachi23
-Présentation :j'ai 18 ans et je suis en BTS CIEL 
+Présentation :j'ai 18 ans et je suis en BTS CIEL1
 
 Prénom : pseudo
 Présentation :
