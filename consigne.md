@@ -37,8 +37,8 @@ Présentation : Je suis un élève du BTS CIEL, je suis une personne passioné d
 Lucas : Mr-LucGour
 Présentation : j'ai 18 ans et j'habite a Goincourt je joue au foot a Saint-Paul en Seniors
 
-Prénom : pseudo
-Présentation :
+killyan : rivachi23
+Présentation :j'ai 18 ans et je suis en BTS CIEL 
 
 Prénom : pseudo
 Présentation :
