@@ -52,8 +52,9 @@ Présentation :
 Prénom : pseudo
 Présentation :
 
-Prénom : pseudo
-Présentation :
+Prénom : Halil
+Présentation : c'est Halil, 18ans, permùifié, jlai eu en 2 fois, la 1er fois
+ ses btrd j'avais eu 19.5, la monitrice de merde elle pue sa race
 
 Prénom : pseudo
 Présentation :
