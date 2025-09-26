@@ -41,7 +41,7 @@ Lucas : Mr-LucGour
 Présentation : j'ai 18 ans et j'habite a Goincourt je joue au foot a Saint-Paul en Seniors
 
 Enzo : salutoi3008
-Présentation : Je suis un étudiant en première années de BTS Ciel, j'habite à Montreuil-sur-Thérain et je suis une personne qui aime régarder des animés et écouter Linkin Park
+Présentation : Je suis un étudiant en première années de BTS Ciel, j'habite à Montreuil-sur-Thérain et je suis une personne qui aime régarder des animés et écouter du nu-metal
 
 Prénom : pseudo
 Présentation :
