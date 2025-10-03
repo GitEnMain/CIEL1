@@ -37,4 +37,3 @@ Ce dépôt a pour objectif de vous initier à l’utilisation de **Git** et **Gi
 ---
 
 💡 *Conseil : pensez à écrire des messages de commit clairs, ils font partie de votre travail collaboratif !*
->>>>>>> 502851866aa9acbbe2f4cdb832bd0b536a07e851
