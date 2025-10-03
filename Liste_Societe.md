@@ -12,3 +12,6 @@ Lucas :
 -Ingram = pas contacter
 -Bellova = pas contacter
 -Tec Automatismes = pas contacter
+
+Killyan:
+MR robot gisors ==> pas contacter 
