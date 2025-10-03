@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },      
       {
         name: "Donnie Thornberry",
-        photo: "img/donnie.png",
+        photo: "img/Donnie.png",
         role: "Enfant sauvage adopté par les Delajungle",
         email: "donnie@cocotier.com",
         github: "https://github.com/GitEnMain",
