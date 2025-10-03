@@ -8,6 +8,10 @@ Priam:
 -Safran pas contacter
 -Massay pas contacter
 
+Kelan :
+- Aserti Electronics = Pas encore contacté
+- A2LDS Informatique = Pas encore contacté
+
 Lucas :
 -Ingram = pas contacter
 -Bellova = pas contacter
@@ -25,3 +29,5 @@ Enzo :
 - Sicomel = à appeler
 - iTi- informatique (Crépy-en-Valois) = pas appeler 
 - CCDE ( Hermes) = prends passs
+
+
