@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr" class="dark ">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale1.0">
     <title>Les LED</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     
@@ -13,7 +14,7 @@
     <header>
         <strong><h1>Fiche d'information sur les LED</h1></strong>
     </header>
-
+    <button data-theme-toggler>Changer de mode</button>
     <h2><u>La Led historiquement : </u></h2>
     <p>
         La première émission de lumière par un semi-conducteur date de 1907 et est découverte par Henry Round. En 1927, le russe Oleg Lossev dépose le premier brevet de ce qui sera appelé plus tard une diode électroluminescente, le carbure de silicium alors utilisé comme semi-conducteur ayant de piètres propriétés électroluminescentes.
@@ -72,12 +73,13 @@
         <div class="tab">
             <img src="img/Verschiedene_LEDs.jpg"  class="zoomable" alt=" leds">
         </div>
-
     <footer>
 
     <strong><h3> Fait par EZYomi </h3></strong>
 
     </footer>
+
+    <button onclick="scrollToTop()" id="topButton">⬆ 
 </div>
 <div id="overlay">
     <img src="" alt="Zoom">

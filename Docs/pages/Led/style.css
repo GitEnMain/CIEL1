@@ -1,48 +1,59 @@
+
+[data-theme="light"] {
+	--bg-color: #ececec;
+	--text-color: #212121;
+}
+
+
+[data-theme="dark"] {
+	--bg-color: #212121;
+	--text-color: #ececec;
+}
+
+html {
+	background-color: var(--bg-color);
+	color: var(--text-color);
+}
+
 header {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: black;
-    color: white;
+    color: var(--text-color);
 
 }
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: white;
+    color:var(--text-color);
 
 }
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: black;
+    color: var(--text-color);
 
 }
 
 h3{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: white;
+    color: var(--text-color);
 
 }
 
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:darkgray;
-
-}
 
 p{
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: var(--text-color);
 
 }
 
 li{
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color:var(--text-color);
 
 }
 
@@ -66,7 +77,6 @@ img{
     padding: 40px 20px;
     max-width: 900px;
     margin:auto;
-    background: white;
     margin-bottom:10px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0,08);
@@ -74,11 +84,23 @@ img{
 
 }
 
+#topButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 32px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+  }
 
 footer{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: black; 
     color: white;
 }
 
@@ -94,7 +116,6 @@ footer{
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0,0,0,0.8);
     display: none;
     justify-content: center;
     align-items: center;
