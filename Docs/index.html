@@ -1,8 +1,44 @@
-h1 {
-  text-align: center;
-  font-size: 48px;
-  font-family: Helvetica, Verdana, Arial;
-}
-</style>
-<h1>Bienvenue dans la page web.</h1>
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trombinoscope — BTS CIEL 1er année</title>
+  <meta name="description" content="Mini-projet Git/GitHub : Trombinoscope de la classe. Chaque élève complète ses infos dans le JavaScript." />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="title"><span class="badge">Mini-projet</span> Trombinoscope — BTS CIEL 1er année</div>
+      <div class="panel">
+        <div class="controls">
+          <label class="search" aria-label="Rechercher par nom, techno ou rôle">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M21 21l-4.2-4.2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="10" cy="10" r="6" stroke="currentColor" stroke-width="2"/>
+            </svg>
+            <input id="q" type="search" placeholder="Rechercher un(e) camarade ou une techno…" autocomplete="off" />
+          </label>
+          <div class="hint">Astuce : appuie sur <span class="kbd">/</span> pour chercher</div>
+        </div>
+      </div>
 
+
+
+      <button id="themeToggle" aria-label="Changer de thème">🌙</button>
+
+    </header>
+
+    <main id="list" class="grid" aria-live="polite"></main>
+    <p id="empty" class="empty" hidden>Aucune personne ne correspond à cette recherche.</p>
+
+    <footer>
+      <p>
+        Chaque élève édite le <span class="kbd">JavaScript</span> (tableau <span class="kbd">students</span>) pour ajouter sa fiche : nom, photo, email, GitHub, sa page web, une bio et 3 technos.
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
