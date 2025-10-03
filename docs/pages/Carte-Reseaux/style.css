@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #5d08be;
+    color: #ffffff;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #210036;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    color: #ff0000;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+}
