@@ -62,25 +62,5 @@ Présentation :
 Prénom : pseudo
 Présentation :
 
-<<<<<<< HEAD
-Prénom : pseudo
-Présentation :
-
-Prénom : pseudo
-Présentation :
-
-Prénom : pseudo
-Présentation :
-
-Prénom : pseudo
-Présentation :
-
-Prénom : pseudo
-Présentation :
-
-Prénom : pseudo
-Présentation :
-=======
 Killyan : rivachi23
 Présentation : J'ai 18 and et je suis en bts ciel1
->>>>>>> 4469ffcadd77264657e56a4f8ac4979f972322bb
