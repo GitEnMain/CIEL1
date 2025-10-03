@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+# CIEL1
+il et temps d'apprendre le git
+=======
+# CIEL1 
+Je vais faire des bétises.
+Bonjour
+c'est bon
+>>>>>>> 72714e7572fd0815b8e4bed69dfc3780a51034c5
+=======
 # 🚀 BTS CIEL 1 — Mini-Projets GitHub
 
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
@@ -37,3 +48,4 @@ Ce dépôt a pour objectif de vous initier à l’utilisation de **Git** et **Gi
 ---
 
 💡 *Conseil : pensez à écrire des messages de commit clairs, ils font partie de votre travail collaboratif !*
+>>>>>>> 502851866aa9acbbe2f4cdb832bd0b536a07e851
