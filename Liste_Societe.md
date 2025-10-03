@@ -8,3 +8,7 @@ Priam:
 -Safran pas contacter
 -Massay pas contacter
 
+Lucas :
+-Ingram = pas contacter
+-Bellova = pas contacter
+-Tec Automatismes = pas contacter
