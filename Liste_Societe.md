@@ -31,3 +31,6 @@ Enzo :
 - CCDE ( Hermes) = prends passs
 
 
+Kénan:
+- ASERTI ELECTRONIQUE: ...
+
