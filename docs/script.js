@@ -56,6 +56,16 @@ document.addEventListener("DOMContentLoaded", function () {
         web: "pages/Arduino/arduino.html",
         tech: ["Agilité jungle", "Énergie infinie", "JavaScript"],
         bio: "Un mélange unique de cris, d’énergie et d’instinct animal."
+      },
+      {
+        name: "Priam Zolex",
+        photo: "img/frieren.jpg",
+        role: "Maitre Capybara, Papa de 11 enfant",
+        email: "zolexdb@gmail.com",
+        github: "https://github.com/Priammm",
+        web: "pages/Microprocesseur/index.html",
+        tech: ["Singe suprême", "Angles morts", "Coup de pression du daron"],
+        bio: "Singe de 15 mêtre de haut et Maitre des Capybara"
       },      
   ];
   
