@@ -76,7 +76,17 @@ document.addEventListener("DOMContentLoaded", function () {
         web: "pages/Led/index.html",
         tech: ["Block dans tes chicos", "Smashhhhhh", "Miaoumax"],
         bio: "Oue pas mal"
-      },   
+      },
+      {
+      name: "Mr-LucGour",
+      photo: "img/songoku.png",
+      role: "Combattant de Tilted Tower",
+      email: "lucasgourdain772@gmail.com",
+      github: "https://github.com/MR-LucGour",
+      web: "",
+      tech: ["Rapidité , pro builder , fragger/igl "],
+      bio: "avec une rapidite d'éxécution et une analyse hors pair"
+    },
       
       
 
