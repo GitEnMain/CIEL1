@@ -66,7 +66,20 @@ document.addEventListener("DOMContentLoaded", function () {
         web: "pages/Microprocesseur/index.html",
         tech: ["Singe suprême", "Angles morts", "Coup de pression du daron"],
         bio: "Singe de 15 mêtre de haut et Maitre des Capybara"
-      },      
+      },    
+      {
+        name: "Valentin Yomi",
+        photo: "img/gojo.jpg",
+        role: "Singe Grand, Spikeur et bloqueur",
+        email: "lelouis.carter@gmail.com",
+        github: "https://github.com/EZYomi",
+        web: "pages/Led/index.html",
+        tech: ["Block dans tes chicos", "Smashhhhhh", "Miaoumax"],
+        bio: "Oue pas mal"
+      },   
+      
+      
+
   ];
   
   
