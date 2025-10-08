@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
         bio: "Singe de 15 mêtre de haut et Maitre des Capybara"
       },      
       {
-        name: "K̵̢̢̨̛̛̛̛̛̛̫͈̪̺̜͕̪̦͕͚̙̘̞͆̀̂́̋̎̒̾͆͗̓̓͂̑̋̑̄͛̌͂̉̉̒̈́̇͛́̓́̽̄̇͒̎͑̒̍̀͑͊́͊̒̀̾̅͆͒́̀͆̅̂͒̊̅̿̈̀̽͊́̿̌̄͂̒͌̄̎͌͗̇͂͊̍̒̔̌̿̎͋́̊̍̌́̀̑́̿͊̂̆͒͒͊͊̑́̽̓͂̿̃́̀͌̉̑́͐̋̆̎̒̊̈́͌́̑̉͛̊̀̃̽̓̔̆̽̐͐̑̿̐͑͋̂̾̇͑͌̒̂͌̐̈́́̍̇̽̆́̄͗̑̅͊͋̀͗͂̈́̒́̔̀̋̆́͌̅́̒̈́̔̆̈́̈́̍̂̅̈́̿̔̀̓̕͘̚̚̕͘͘͘͘̕͘̕̚͝͝͝͠͠͠͝͝͝͝͠ȩ̶̢̧̨̧̨̧̛̛͖̤͓̲̹̹͈̜̠̭̲̮̠̲̟̯̖͓̞̦̮̣̞͉͈̤̺͚̼́͋̅͊́̏͐̈̃̔͌̊̃̍̋̀̊̍͐̋̇̽̓͌́͌̉́̎̄́̍͒́̒͌̎͌̋̕̚͝͝͠͠ͅͅn̷̨̧̢̨̧̨̡̧̡̧̢̢̧̧̢̛̛̛̗̠̳͓̟͕̪̹̱͎̜̙̜̱̹͙̪͇̺̜͕̯͚͓̩̰̺͓̙̭̙̮̮̻͇̺̻̝͓̠̮̫̮̗̼̣̗̞̮̻͕̠͈̘͚̦̰̰̼̺̣̫̹̖̘̙̯̹̭͍̜͍̲̻̞̭̖͙͉̖͕͙̞̮̹̮̘̙̣̦̫̻̺̙̤̹̙͎̰̮̝͎̖͈̦̣̥̯͎͇̲̠̪̞̱̩͖̪̞͎̣̣̩̗̖̟̥̖̯̤̬͈̱̞̝̗̳̩̤̞̱̹̖̤̩̥͚̳̰̟̦̜͓̙̲͉̖̞͓̙̖̤̻̳̺̺̠̋̿̑͒̃̾̀̑̓̆͗͑̈́̔̆̄̒̈́͒̈͐̑̏̎͊̄̈̏̑͐̂͊̂͛̈̀̆́̔̅͛̅̒͊̉̇̊̈́̄͐́̽̀̇͋̄́͌̒̈́̒̿͑̊̔̆͆͒͊̄́̅͋̍̌̒͆̄͗̅̑̐̇͆̔̈̍͑́͆̀̉̃̂͒͋̏̈͊́̔̇̍̊̂͌̐̀͒̌̀̍̿̌̄̾̓͛͌̀̈͋̾͌̀͆̉̈́̂̑́̃̎̎̑̿̈́̀̈͌͒̇̍̄̀̈̈́̈́͂̆̌́̍̈́̿͒̓̎̆͌͑̊̈̄̅͛̌̓̒̇́͘̚͘̕͘̕͘̕̚̕̚̕͘̕͘͘͘̕̚͘͘͘͜͜͜͜͠͝͝͝͝͝͝͠͝͝͠͝͝͝͠͠͠͝͠͠͠ͅͅͅͅͅȧ̶̛̛̛̛̻̺̹̱͍̘̦͍̖̥̰̤̳̦̩͚̱͔̞͉̘̊̀̍̔̆̀̿̎̒̽̇̈́͋́̋̃͗̄̃̐͂͋̐͛̋̍́̄͋̈́̾̈͑̎̓̑͌̄̓̔͆͐͛̇̌́̿͌͑͋̀́̑͛̿̄̀̆͗́͂̓̍̿́̀́̎́͂̆̏͊̆̏̄̔̏̊̊̾̾̽̅̎̓̐͆̃͋̀̂̑̎̾̀̅̃̈́̋̈̿̉̐́̃̀̓̾̃̃̒̌̈́̽̿̉̄́͛̀̉̈̓̌̊̓̈̀̽̉͐̅̃̇̋̐̐́̂̈́̏̃̌̔̎̾̎͗͐͋͆̆̄̌̇̈́̿̅̓͗̉̏̎̓̀̽̅͒̓͗̄͌͐̾̈͒̌̎͛̀̆̄̾̅̑̾̇̀̍̉̀̓̋͑̂̆́̈́͛̓̑͐̀̏̇̽̀͂͆͒͐̀̓̔̎̊̽̎͑̽͌̏̄͐̃̽͗̽̚̚͘̚̚̕̚̕͘̕͘̚͘͘̚͘͝͝͝͝͝͠͝͠͠͝͠͝͝͝͝͠͝͠n̵̡̧̢̨̡̡̡̧̢̛̛̛͕̦̠̩̝͖͕͇̣̜̖̬̝͔̺̩͓̺̮̺̖̤̩̥̘̣̝̯͎̯̻̪̥̱̬̤͙̝̖̞͚͍̰͉͎̗̳͈͉̳͉̣̠̫̮͚͓̯̰̺̗̥͖̘͖̘̘͉̲̙̳̝̳̹̪̲̮̻͚͎̮̦͖̫͙͔̠͉̰̻̤̲͚͍͎̖͔͔̼̭̜͛̅̾̿͗͋̋̅̾͋͑̅̇̌̓̈̅̑̓̂͑̽͊̿́̈͒̀̿̆̐͌͊̇̈̉̓͌̄̒́̎̂̓͂̊͆̋̓͛͛́̂̀̉̈́̎͐̇͗̑̒̇̆͆̈́̈̍̔͂̌̓̈͐͒̈́̃͆̿̍̊̇͑̓̌̇̑̈́̂̓̐̿̑͒̂͑͒́͛̈́̆͋͆̋̀̀̊̈̔̄͆́̓̏̓͊̓̇̊̿̾̂̊̌̚͘̚͘̚̚͜͜͜͜͠͠͝͠͠͠͝͠͝͝ͅͅͅͅͅ",
+        name: "9/9/9",
         photo: "pages/Condensateur/img/otronic-10x-condensateur-1uf-50v-electrolytique-el.webp",
         role: "codeur html css et js",
         email: "mailer-daemon@googlemail.com",
@@ -76,27 +76,6 @@ document.addEventListener("DOMContentLoaded", function () {
         web: "pages/Condensateur/index.html",
         tech: ["Windows NT", "DOS", "Linux", "FreeBSD", "QNX", "AmigaOS", "AIX", "NeXTSTEP", "OS/2", "Android", "iOS/iPadOS"],
         bio: "0x0000007B (INACCESSIBLE_BOOT_DEVICE)"
-      },
-      {
-        name: "Valentin Yomi",
-        photo: "img/gojo.jpg",
-        role: "Singe Grand, Spikeur et bloqueur",
-        email: "lelouis.carter@gmail.com",
-        github: "https://github.com/EZYomi",
-        web: "pages/Led/index.html",
-        tech: ["Block dans tes chicos", "Smashhhhhh", "Miaoumax"],
-        bio: "Oue pas mal"
-
-      },   
-      {
-        name: "Enzo Salutoi",
-        photo: "img/black.jpg",
-        role: " Dernier Dieu en vie, veut accomplir son plan Zéro Humains",
-        email: "lethiaisenzo@gmail.com",
-        github: "https://github.com/salutoi3008",
-        web: "",
-        tech: ["Super sayan rosé", "Super Kaméhaméha black rosé", "Fusion Potalas"],
-        bio: "Dieu maléfique voulant exterminé la totalité de l'humanité pour que seuls les êtres parfaits existes"
       },
   ];
   
