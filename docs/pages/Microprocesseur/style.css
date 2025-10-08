@@ -101,7 +101,7 @@ body {
 }
 
 #overlay img {
-    width: 50%;
+    width: 100%;
     max-width: 200%;
     max-height: 200%;
     border: 2px solid #fff;
@@ -124,6 +124,40 @@ body {
     transform: scale(1.05);
 }
     
+/* Bouton retour haut */
+  #backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #178891;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 14px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, transform 0.3s;
+    z-index: 1000;
+  }
+  #backToTop:hover {
+    background: #0f6c73;
+    transform: scale(1.1);
+  }
+
+  #themeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: #178891;
+    color: white;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  
     footer {
     background: #3a506b;
     color: #fdfdfd;
@@ -131,3 +165,55 @@ body {
     padding: 20px;
     }
     
+
+/* dark mode */
+/* Mode sombre */
+body.dark-mode {
+    background: #1e1e1e; /* gris très foncé */
+    color: #e0f7f1;       /* texte turquoise clair pour lisibilité */
+}
+
+body.dark-mode header {
+    background: #283845; /* bleu-gris foncé */
+    color: #e0f7f1;
+}
+
+body.dark-mode nav {
+    background: #3b4c5c; /* gris-bleu sombre */
+}
+
+body.dark-mode nav a {
+    color: #a0e7e5;
+}
+
+body.dark-mode nav a:hover {
+    color: #f5c542; /* on garde accent doré */
+}
+
+body.dark-mode section {
+    background: #2e3b4e; /* gris foncé pour les sections */
+    color: #e0f7f1;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+body.dark-mode .image-box {
+    background: #3b4c5c;
+    color: #e0f7f1;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+body.dark-mode footer {
+    background: #283845;
+    color: #e0f7f1;
+}
+
+body.dark-mode h2 {
+    color: #a0c4d6; /* bleu clair/gris clair pour le texte */
+    border-bottom: 2px solid #7aaac0; /* bleu moyen clair pour la bordure */
+}
+
+body .drak-mode .image-box p {
+    padding: 15px;
+    font-weight: 500;
+    color: #e0f7f1;
+}
