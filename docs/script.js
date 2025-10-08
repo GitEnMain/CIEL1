@@ -98,6 +98,17 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["Super sayan rosé", "Super Kaméhaméha black rosé", "Fusion Potalas"],
         bio: "Dieu maléfique voulant exterminé la totalité de l'humanité pour que seuls les êtres parfaits existes"
       },
+      {
+        name: "Ethan Ahriman",
+        photo: "img/ahriman.jpg",
+        role: "architecte de châteaux de sable",
+        email: "lebel.ethan.pro@gmail.com",
+        github: "https://github.com/lebelethan",
+        web: "",
+        tech: ["Astartes Ridiculous","debilus primus"],
+        bio: "Ouga bouga mon cerveau c'est de la grosse purée waagh"
+      },
+
   ];
   
   
