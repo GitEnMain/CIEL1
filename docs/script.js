@@ -67,6 +67,16 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["Singe suprême", "Angles morts", "Coup de pression du daron"],
         bio: "Singe de 15 mêtre de haut et Maitre des Capybara"
       },      
+      {
+        name: "Kelan Martvill",
+        photo: "img/JAN LASSAL.jpeg",
+        role: "Un gars qui essaye de réussir, Célibataire depuis 1874",
+        email: "kelanbvs60@gmail.com",
+        github: "https://github.com/Klequette307",
+        web: "pages/Buzzer/buzzer.html",
+        tech: ["Glandeur professionel", "I'M BATMAN", "La soudure c cool"],
+        bio: "Perso je m'en fiche des consoles next gen, j'ai la PS3"
+      },
   ];
   
   
