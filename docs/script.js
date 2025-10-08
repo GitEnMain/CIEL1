@@ -77,6 +77,16 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["Block dans tes chicos", "Smashhhhhh", "Miaoumax"],
         bio: "Oue pas mal"
       },   
+      {
+        name: "Enzo Salutoi",
+        photo: "img/black.jpg",
+        role: " Dernier Dieu en vie, veut accomplir son plan Zéro Humains",
+        email: "lethiaisenzo@gmail.com",
+        github: "https://github.com/salutoi3008",
+        web: "",
+        tech: ["Super sayan rosé", "Super Kaméhaméha black rosé", "Fusion Potalas"],
+        bio: "Dieu maléfique voulant exterminé la totalité de l'humanité pour que seuls les êtres parfaits existes"
+      },   
       
       
 
