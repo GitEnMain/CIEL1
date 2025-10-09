@@ -1,24 +1,52 @@
 <!DOCTYPE html>
-
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Clickers Manga</title>
-        <link rel="icon" type="image/png" href="img/logo.png" />
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>Clickers Manga</h1>
-        </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manga Clicker Zen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌑 Manga Clicker 🌿</h1>
+    <button id="theme-toggle">🌙 / ☀️</button>
+  </header>
 
-        <section>
-            
-        </section>
+  <main class="game-layout">
 
-        <footer>
+    <!-- STATS -->
+    <aside class="panel left">
+      <button class="toggle-btn menu-btn" data-target="stats-content">📊 Statistiques</button>
+      <div id="stats-content" class="panel-content">
+        <p>💥 Points : <span id="score">0</span></p>
+        <p>⚡ Multiplicateur : x<span id="multiplier">1</span></p>
+        <p>🕐 Temps de jeu : <span id="time">0s</span></p>
+      </div>
+    </aside>
 
-        </footer>
-    </body>
+    <!-- CLICKER CENTRAL -->
+    <section class="click-area">
+      <div class="click-zone">
+        <img id="manga" src="img/goku.png" alt="Manga Image" />
+        <p class="hint">Clique sur Goku pour gagner des Yens 💴</p>
+      </div>
+    </section>
+
+    <!-- BOUTIQUE -->
+    <aside class="panel right">
+      <button class="toggle-btn menu-btn" data-target="shop-content">🛒 Boutique</button>
+      <div id="shop-content" class="panel-content">
+        <button id="upgrade">Acheter amélioration (+1/clic) - 50 pts</button>
+        <button id="autoclick">Acheter auto-click (1/sec) - 200 pts</button>
+      </div>
+    </aside>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Manga Clicker</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
