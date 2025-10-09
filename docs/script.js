@@ -76,7 +76,20 @@ document.addEventListener("DOMContentLoaded", function () {
         web: "pages/Buzzer/buzzer.html",
         tech: ["Glandeur professionel", "I'M BATMAN", "La soudure c cool"],
         bio: "Perso je m'en fiche des consoles next gen, j'ai la PS3"
-      },
+      },   
+      {
+        name: "Valentin Yomi",
+        photo: "img/gojo.jpg",
+        role: "Singe Grand, Spikeur et bloqueur",
+        email: "lelouis.carter@gmail.com",
+        github: "https://github.com/EZYomi",
+        web: "pages/Led/index.html",
+        tech: ["Block dans tes chicos", "Smashhhhhh", "Miaoumax"],
+        bio: "Oue pas mal"
+      },   
+      
+      
+
   ];
   
   
