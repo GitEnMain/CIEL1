@@ -108,6 +108,16 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["Astartes Ridiculous","debilus primus"],
         bio: "Ouga bouga mon cerveau c'est de la grosse purée waagh"
       },
+      {
+        name: "Antony daiki",
+        photo: "img/daiki.jpg",
+        role: "le maitre du basket",
+        email: "babahomer98@gmail.com",
+        github: "https://github.com/babahomer1",
+        web: "",
+        tech: ["le plus fort","prodiges"],
+        bio: "le seul qui puisse me battre,c'est moi même"
+      },
 
   ];
   
