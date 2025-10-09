@@ -78,7 +78,16 @@ document.addEventListener("DOMContentLoaded", function () {
         bio: "Oue pas mal"
       },   
       
-      
+      {
+        name: "Noah shinigami",
+        photo: "img/ichigo.jpg",
+        role: "Arracheur d'Hollow",
+        email: "brayannabassa@gmail.com",
+        github: "https://github.com/noahabassa-bot",
+        web: "pages/Led/index.html",
+        tech: ["Bankai", "Bankai", "White"],
+        bio: "Shinigami remplacant"
+      },   
 
   ];
   
