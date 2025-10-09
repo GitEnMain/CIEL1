@@ -68,18 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
         bio: "Singe de 15 mêtre de haut et Maitre des Capybara"
       },      
       {
-<<<<<<< HEAD
-        name: "Kelan Martvill",
-        photo: "img/JAN LASSAL.jpeg",
-        role: "Un gars qui essaye de réussir, Célibataire depuis 1874",
-        email: "kelanbvs60@gmail.com",
-        github: "https://github.com/Klequette307",
-        web: "pages/Buzzer/buzzer.html",
-        tech: ["Glandeur professionel", "I'M BATMAN", "La soudure c cool"],
-        bio: "Perso je m'en fiche des consoles next gen, j'ai la PS3"
-      },   
-=======
-        name: "K̵̢̢̨̛̛̛̛̛̛̫͈̪̺̜͕̪̦͕͚̙̘̞͆̀̂́̋̎̒̾͆͗̓̓͂̑̋̑̄͛̌͂̉̉̒̈́̇͛́̓́̽̄̇͒̎͑̒̍̀͑͊́͊̒̀̾̅͆͒́̀͆̅̂͒̊̅̿̈̀̽͊́̿̌̄͂̒͌̄̎͌͗̇͂͊̍̒̔̌̿̎͋́̊̍̌́̀̑́̿͊̂̆͒͒͊͊̑́̽̓͂̿̃́̀͌̉̑́͐̋̆̎̒̊̈́͌́̑̉͛̊̀̃̽̓̔̆̽̐͐̑̿̐͑͋̂̾̇͑͌̒̂͌̐̈́́̍̇̽̆́̄͗̑̅͊͋̀͗͂̈́̒́̔̀̋̆́͌̅́̒̈́̔̆̈́̈́̍̂̅̈́̿̔̀̓̕͘̚̚̕͘͘͘͘̕͘̕̚͝͝͝͠͠͠͝͝͝͝͠ȩ̶̢̧̨̧̨̧̛̛͖̤͓̲̹̹͈̜̠̭̲̮̠̲̟̯̖͓̞̦̮̣̞͉͈̤̺͚̼́͋̅͊́̏͐̈̃̔͌̊̃̍̋̀̊̍͐̋̇̽̓͌́͌̉́̎̄́̍͒́̒͌̎͌̋̕̚͝͝͠͠ͅͅn̷̨̧̢̨̧̨̡̧̡̧̢̢̧̧̢̛̛̛̗̠̳͓̟͕̪̹̱͎̜̙̜̱̹͙̪͇̺̜͕̯͚͓̩̰̺͓̙̭̙̮̮̻͇̺̻̝͓̠̮̫̮̗̼̣̗̞̮̻͕̠͈̘͚̦̰̰̼̺̣̫̹̖̘̙̯̹̭͍̜͍̲̻̞̭̖͙͉̖͕͙̞̮̹̮̘̙̣̦̫̻̺̙̤̹̙͎̰̮̝͎̖͈̦̣̥̯͎͇̲̠̪̞̱̩͖̪̞͎̣̣̩̗̖̟̥̖̯̤̬͈̱̞̝̗̳̩̤̞̱̹̖̤̩̥͚̳̰̟̦̜͓̙̲͉̖̞͓̙̖̤̻̳̺̺̠̋̿̑͒̃̾̀̑̓̆͗͑̈́̔̆̄̒̈́͒̈͐̑̏̎͊̄̈̏̑͐̂͊̂͛̈̀̆́̔̅͛̅̒͊̉̇̊̈́̄͐́̽̀̇͋̄́͌̒̈́̒̿͑̊̔̆͆͒͊̄́̅͋̍̌̒͆̄͗̅̑̐̇͆̔̈̍͑́͆̀̉̃̂͒͋̏̈͊́̔̇̍̊̂͌̐̀͒̌̀̍̿̌̄̾̓͛͌̀̈͋̾͌̀͆̉̈́̂̑́̃̎̎̑̿̈́̀̈͌͒̇̍̄̀̈̈́̈́͂̆̌́̍̈́̿͒̓̎̆͌͑̊̈̄̅͛̌̓̒̇́͘̚͘̕͘̕͘̕̚̕̚̕͘̕͘͘͘̕̚͘͘͘͜͜͜͜͠͝͝͝͝͝͝͠͝͝͠͝͝͝͠͠͠͝͠͠͠ͅͅͅͅͅȧ̶̛̛̛̛̻̺̹̱͍̘̦͍̖̥̰̤̳̦̩͚̱͔̞͉̘̊̀̍̔̆̀̿̎̒̽̇̈́͋́̋̃͗̄̃̐͂͋̐͛̋̍́̄͋̈́̾̈͑̎̓̑͌̄̓̔͆͐͛̇̌́̿͌͑͋̀́̑͛̿̄̀̆͗́͂̓̍̿́̀́̎́͂̆̏͊̆̏̄̔̏̊̊̾̾̽̅̎̓̐͆̃͋̀̂̑̎̾̀̅̃̈́̋̈̿̉̐́̃̀̓̾̃̃̒̌̈́̽̿̉̄́͛̀̉̈̓̌̊̓̈̀̽̉͐̅̃̇̋̐̐́̂̈́̏̃̌̔̎̾̎͗͐͋͆̆̄̌̇̈́̿̅̓͗̉̏̎̓̀̽̅͒̓͗̄͌͐̾̈͒̌̎͛̀̆̄̾̅̑̾̇̀̍̉̀̓̋͑̂̆́̈́͛̓̑͐̀̏̇̽̀͂͆͒͐̀̓̔̎̊̽̎͑̽͌̏̄͐̃̽͗̽̚̚͘̚̚̕̚̕͘̕͘̚͘͘̚͘͝͝͝͝͝͠͝͠͠͝͠͝͝͝͝͠͝͠n̵̡̧̢̨̡̡̡̧̢̛̛̛͕̦̠̩̝͖͕͇̣̜̖̬̝͔̺̩͓̺̮̺̖̤̩̥̘̣̝̯͎̯̻̪̥̱̬̤͙̝̖̞͚͍̰͉͎̗̳͈͉̳͉̣̠̫̮͚͓̯̰̺̗̥͖̘͖̘̘͉̲̙̳̝̳̹̪̲̮̻͚͎̮̦͖̫͙͔̠͉̰̻̤̲͚͍͎̖͔͔̼̭̜͛̅̾̿͗͋̋̅̾͋͑̅̇̌̓̈̅̑̓̂͑̽͊̿́̈͒̀̿̆̐͌͊̇̈̉̓͌̄̒́̎̂̓͂̊͆̋̓͛͛́̂̀̉̈́̎͐̇͗̑̒̇̆͆̈́̈̍̔͂̌̓̈͐͒̈́̃͆̿̍̊̇͑̓̌̇̑̈́̂̓̐̿̑͒̂͑͒́͛̈́̆͋͆̋̀̀̊̈̔̄͆́̓̏̓͊̓̇̊̿̾̂̊̌̚͘̚͘̚̚͜͜͜͜͠͠͝͠͠͠͝͠͝͝ͅͅͅͅͅ",
+        name: "9/9/9",
         photo: "pages/Condensateur/img/otronic-10x-condensateur-1uf-50v-electrolytique-el.webp",
         role: "codeur html css et js",
         email: "mailer-daemon@googlemail.com",
@@ -88,39 +77,6 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["Windows NT", "DOS", "Linux", "FreeBSD", "QNX", "AmigaOS", "AIX", "NeXTSTEP", "OS/2", "Android", "iOS/iPadOS"],
         bio: "0x0000007B (INACCESSIBLE_BOOT_DEVICE)"
       },
->>>>>>> 76ba49ca27b7f8dfd279d5c705745bd6e0bdd278
-      {
-        name: "Valentin Yomi",
-        photo: "img/gojo.jpg",
-        role: "Singe Grand, Spikeur et bloqueur",
-        email: "lelouis.carter@gmail.com",
-        github: "https://github.com/EZYomi",
-        web: "pages/Led/index.html",
-        tech: ["Block dans tes chicos", "Smashhhhhh", "Miaoumax"],
-        bio: "Oue pas mal"
-
-      },   
-      {
-        name: "Enzo Salutoi",
-        photo: "img/black.jpg",
-        role: " Dernier Dieu en vie, veut accomplir son plan Zéro Humains",
-        email: "lethiaisenzo@gmail.com",
-        github: "https://github.com/salutoi3008",
-        web: "",
-        tech: ["Super sayan rosé", "Super Kaméhaméha black rosé", "Fusion Potalas"],
-        bio: "Dieu maléfique voulant exterminé la totalité de l'humanité pour que seuls les êtres parfaits existes"
-      },
-      {
-        name: "Ethan Ahriman",
-        photo: "img/ahriman.jpg",
-        role: "architecte de châteaux de sable",
-        email: "lebel.ethan.pro@gmail.com",
-        github: "https://github.com/lebelethan",
-        web: "",
-        tech: ["Astartes Ridiculous","debilus primus"],
-        bio: "Ouga bouga mon cerveau c'est de la grosse purée waagh"
-      },
-
   ];
   
   
