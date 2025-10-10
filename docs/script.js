@@ -108,6 +108,16 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["Astartes Ridiculous","debilus primus"],
         bio: "Ouga bouga mon cerveau c'est de la grosse purée waagh"
       },
+      {
+        name: "Amine Uchiha",
+        photo: "img/Obitolegoat.jpg",
+        role: "Chef manipulateur de l'Akatsuki; Détenteur du pouvoir de Rikudo",
+        email: "obito.uchiha@konoha.com",
+        github: "https://github.com/sahbi60",
+        web: "pages/resistor/resistor.html",
+        tech: ["Astartes Ridiculous","debilus primus"],
+        bio: "Ouga bouga mon cerveau c'est de la grosse purée waagh"
+      }
 
   ];
   
