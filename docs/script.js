@@ -75,7 +75,6 @@ document.addEventListener("DOMContentLoaded", function () {
         email: "kelanbvs60@gmail.com",
         github: "https://github.com/Klequette307",
         web: "pages/Buzzer/buzzer.html",
-        cadeau: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         tech: ["Glandeur professionnel", "I'M BATMAN", "La soudure c cool"],
         bio: "Perso je m'en fiche des consoles next gen, j'ai la PS3"
       },
