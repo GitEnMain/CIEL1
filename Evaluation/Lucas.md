@@ -4,51 +4,51 @@
 
 1. Quelle est la signification de HTML ?  
    - [ ] Hyperlinks and Text Markup Language  
-   - [ ] Hyper Text Markup Language  
+   - [X-] Hyper Text Markup Language  
    - [ ] Home Tool Markup Language  
 
 2. Quelle balise permet d’afficher le titre d’une page dans l’onglet du navigateur ?  
-   - [ ] `<head>`  
+   - [X] `<head>`  
    - [ ] `<title>`  
    - [ ] `<h1>`  
 
 3. Quelle balise permet d’insérer une image ?  
-   - [ ] `<img>`  
+   - [X] `<img>`  
    - [ ] `<image>`  
    - [ ] `<picture>`  
 
 4. Quelle balise est utilisée pour créer un lien hypertexte ?  
    - [ ] `<a>`  
-   - [ ] `<link>`  
+   - [X] `<link>`  
    - [ ] `<href>`  
 
 5. Quel attribut est obligatoire dans la balise `<img>` ?  
-   - [ ] `src`  
+   - [X] `src`  
    - [ ] `href`  
    - [ ] `alt`  
 
 6. Quelle est la bonne syntaxe pour créer une liste non ordonnée ?  
    - [ ] `<ul><li>Élément</li></ul>`  
    - [ ] `<ol><li>Élément</li></ol>`  
-   - [ ] `<li><ul>Élément</ul></li>`  
+   - [X] `<li><ul>Élément</ul></li>`  
 
 7. La balise `<strong>` sert à :  
-   - [ ] Mettre le texte en gras  
+   - [X] Mettre le texte en gras  
    - [ ] Souligner le texte  
    - [ ] Centrer le texte  
 
 8. Quelle est la structure minimale correcte d’un document HTML ?  
    - [ ] `<html><body></body></html>`  
-   - [ ] `<html><head></head><body></body></html>`  
+   - [X] `<html><head></head><body></body></html>`  
    - [ ] `<body><html></html></body>`  
 
 9. Quelle balise permet d’insérer un commentaire dans le code HTML ?  
-   - [ ] `<!-- commentaire -->`  
+   - [X] `<!-- commentaire -->`  
    - [ ] `// commentaire`  
    - [ ] `/* commentaire */`  
 
 10. Quelle balise permet d’insérer un paragraphe ?  
-    - [ ] `<p>`  
+    - [X] `<p>`  
     - [ ] `<text>`  
     - [ ] `<paragraph>`  
 
@@ -90,51 +90,51 @@
 14. Quelle commande initialise un dépôt Git ?  
    - [ ] `git start`  
    - [ ] `git init`  
-   - [ ] `git create`  
+   - [X] `git create`  
 
 15. Quelle commande permet d’ajouter des fichiers à la zone de préparation (staging area) ?  
    - [ ] `git add`  
    - [ ] `git stage`  
-   - [ ] `git push`  
+   - [X] `git push`  
 
 16. Quelle commande permet d’enregistrer les changements dans l’historique du dépôt ?  
    - [ ] `git save`  
-   - [ ] `git commit`  
+   - [X] `git commit`  
    - [ ] `git record`  
 
 17. Quelle commande permet de consulter l’historique des commits ?  
    - [ ] `git status`  
-   - [ ] `git log`  
+   - [X] `git log`  
    - [ ] `git history`  
 
 18. Quelle commande permet de cloner un dépôt distant ?  
    - [ ] `git copy`  
-   - [ ] `git clone`  
+   - [X] `git clone`  
    - [ ] `git pull`  
 
 19. Quelle commande affiche les fichiers modifiés mais non encore commités ?  
-   - [ ] `git status`  
+   - [X] `git status`  
    - [ ] `git show`  
    - [ ] `git diff`  
 
 20. Quelle commande permet d’envoyer les commits locaux vers le dépôt distant ?  
    - [ ] `git send`  
    - [ ] `git upload`  
-   - [ ] `git push`  
+   - [X] `git push`  
 
 21. Quelle commande permet de récupérer les modifications du dépôt distant sans les fusionner ?  
    - [ ] `git fetch`  
-   - [ ] `git pull`  
+   - [X] `git pull`  
    - [ ] `git merge`  
 
 22. Quelle commande permet de créer une nouvelle branche nommée `develop` ?  
-   - [ ] `git branch develop`  
+   - [X] `git branch develop`  
    - [ ] `git create develop`  
    - [ ] `git checkout develop`  
 
 23. Quelle commande permet de changer de branche ?  
    - [ ] `git change`  
-   - [ ] `git switch`  
+   - [X] `git switch`  
    - [ ] `git swap`  
 
 ---
@@ -143,14 +143,14 @@
 
 24. (2 pts) Expliquez la différence entre `git clone`, `git pull`.  
 
-> Réponse :  
+> Réponse :  git clone permet de creer une copie de la branche pour pouvoir faire des modification sans changer la copie principale et git pull permet de enregistrer la copie sur le serveur     
 > 
 
 ---
 
 25. (1 pt) Quelle est la différence entre un dépôt local et un dépôt distant ?  
 
-> Réponse :  
+> Réponse :  un depot local c'est un depot que pour les gens relier au meme reseaux et un depot distant c'est un depot qui relie que les gens a travers le monde 
 > 
 
 ---
