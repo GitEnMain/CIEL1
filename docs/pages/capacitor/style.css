@@ -16,3 +16,8 @@ h1 {
 img {
     width: 10%;
 }
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
