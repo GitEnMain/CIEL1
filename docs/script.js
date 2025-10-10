@@ -108,6 +108,16 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["Astartes Ridiculous","debilus primus"],
         bio: "Ouga bouga mon cerveau c'est de la grosse purée waagh"
       },
+      {
+        name: "Halil-Enes Kuzu",
+        photo: "img/TK.jpg"
+        role: "On est 55 Milliards sur Terre",
+        email: "abch.70.234.5@gmail.com",
+        github: "https://github.com/CO6z",
+        web: "",
+        tech: ["j'avais le rouleau de pq collé au cul fdp"],
+        bio: "jchuis parti comme un clochard"
+      },
 
   ];
   
