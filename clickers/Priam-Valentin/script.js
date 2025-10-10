@@ -85,9 +85,24 @@ function saveGame() {
 setInterval(saveGame, 5000);
 
 // --- TIMER ---
+function formatTime(seconds) {
+  const days = Math.floor(seconds / 86400);
+  const hours = Math.floor((seconds % 86400) / 3600);
+  const minutes = Math.floor((seconds % 3600) / 60);
+  const secs = seconds % 60;
+
+  let result = '';
+  if (days > 0) result += days + 'j ';
+  if (hours > 0) result += hours + 'h ';
+  if (minutes > 0) result += minutes + 'm ';
+  if (secs > 0 || seconds === 0) result += secs + 's';
+
+  return result.trim();
+}
+
 setInterval(() => {
   seconds++;
-  timeEl.textContent = seconds + 's';
+  timeEl.textContent = formatTime(seconds);
 }, 1000);
 
 // --- CLAIR/SOMBRE ---
@@ -160,14 +175,15 @@ function startAutoClick() {
 function updateDisplay() {
   scoreEl.textContent = score.toFixed(2);
   multiplierEl.textContent = multiplier;
-  timeEl.textContent = seconds + 's';
+  timeEl.textContent = formatTime(seconds); 
+
   autoClickStatusEl.textContent = autoClickers > 0 ? "On" : "Off";
 
 
   // Met à jour les textes des boutons avec le prix actuel
 
-  upgradeBtn.textContent = `Acheter amélioration (+0.25/clic) - ${upgradeCost} pts`;
-  autoClickBtn.textContent = `Acheter auto-click (1/sec) - ${autoClickCost} pts`;
+  upgradeBtn.textContent = `Acheter amélioration (+0.25/clic) - ${upgradeCost} Yens`;
+  autoClickBtn.textContent = `Acheter auto-click (1/sec) - ${autoClickCost} Yens`;
 
   // Mise à jour de l’image du perso en fonction du multiplicateur
   if (multiplier === 1) {
