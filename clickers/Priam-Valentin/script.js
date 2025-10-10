@@ -179,7 +179,7 @@ function updateDisplay() {
   if (multiplier < 10) {
     manga.src = "img/goku.png";
     upgradeIncrement = 0.25;
-  } else if (multiplier < 50) {
+  } else if (multiplier < 30) {
     manga.src = "img/vegeta.png";
     upgradeIncrement = 0.5;
   } else {
