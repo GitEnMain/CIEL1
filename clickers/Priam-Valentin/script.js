@@ -189,12 +189,7 @@ function updateDisplay() {
 
 
   // Texte des boutons
-  upgradeBtn.textContent = `Acheter amélioration (+${upgradeIncrement}/clic) - ${upgradeCost} pts`;
-  autoClickBtn.textContent = `Acheter auto-click (1/sec) - ${autoClickCost} pts`;
-
-  // Met à jour les textes des boutons avec le prix actuel
-
-  upgradeBtn.textContent = `Acheter amélioration (+0.25/clic) - ${upgradeCost} Yens`;
+  upgradeBtn.textContent = `Acheter amélioration (+${upgradeIncrement}/clic) - ${upgradeCost} Yens`;
   autoClickBtn.textContent = `Acheter auto-click (1/sec) - ${autoClickCost} Yens`;
 
 
