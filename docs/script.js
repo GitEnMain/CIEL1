@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
         email: "kelanbvs60@gmail.com",
         github: "https://github.com/Klequette307",
         web: "pages/Buzzer/buzzer.html",
-        tech: ["Glandeur professionel", "I'M BATMAN", "La soudure c cool"],
+        tech: ["Glandeur professionnel", "I'M BATMAN", "La soudure c cool"],
         bio: "Perso je m'en fiche des consoles next gen, j'ai la PS3"
       },
       { 
