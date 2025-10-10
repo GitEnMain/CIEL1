@@ -24,7 +24,7 @@ body {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  background: #336b4d;
+  background: #FF6B00; /* orange Goku */
   color: #fff;
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
@@ -32,7 +32,7 @@ body {
 }
 
 #theme-toggle:hover {
-  background: #58b47f;
+  background: #FF8C1A; /* orange plus clair */
 }
 
 #rdata {
@@ -41,7 +41,7 @@ body {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  background: #336b4d;
+  background: #004CFF; /* bleu Vegeta */
   color: #fff;
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
@@ -49,7 +49,7 @@ body {
 }
 
 #rdata:hover {
-  background: #58b47f;
+  background: #336BFF; /* bleu clair hover */
 }
 
 #shop-content {
@@ -117,6 +117,15 @@ body {
 }
 
 /* --- CLICK AREA --- */
+
+/* Optionnel : centrer tout le bloc si nécessaire */
+.click-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .click-area {
   display: flex;
   justify-content: center;
@@ -127,7 +136,7 @@ body {
 .click-zone img {
   width: 260px;
   height: 260px;
-  border-radius: 0; /* plus de rond */
+  border-radius: 0;
   cursor: pointer;
   transition: transform 0.1s, box-shadow 0.3s;
 }
@@ -139,7 +148,6 @@ body {
 .click-zone img:active {
   transform: scale(0.9);
 }
-
 
 /* --- HEADER & FOOTER --- */
 header, footer {
@@ -179,94 +187,129 @@ body::before {
   height: 200%;
   top: -50%;
   left: -50%;
-  animation: jadePulse 10s infinite ease-in-out;
+  animation: kiPulse 10s infinite ease-in-out;
   z-index: -1;
 }
 
-@keyframes jadePulse {
+@keyframes kiPulse {
   0%, 100% { transform: scale(1); opacity: 0.6; }
   50% { transform: scale(1.1); opacity: 0.8; }
 }
 
+/* --- LOGO CONTAINER --- */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: -1rem; /* rapproche du clicker */
+}
+
+/* --- LOGO IMAGE --- */
+.logo {
+  width: 360px;             /* plus large */
+  height: auto;             /* conserve les proportions */
+  max-width: 90%;
+  filter: drop-shadow(0 0 12px rgba(255, 107, 0, 0.7));
+  animation: floatLOGO 4s ease-in-out infinite;
+}
+
+/* Animation flottante */
+@keyframes floatLOGO {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .logo {
+    width: 250px;
+  }
+  .logo-container {
+    margin-top: 0.5rem;
+    margin-bottom: -0.5rem;
+  }
+}
+
+
 /* --- MODE SOMBRE --- */
 body.dark {
-  background: linear-gradient(180deg, #0d1f16 0%, #13281e 100%);
-  color: #e0f2e5;
+  background: linear-gradient(180deg, #0A0C2A 0%, #1A1C3A 100%); 
+  color: #FFD700; 
 }
 
 body.dark h1 {
-  color: #b7f2c1;
-  text-shadow: 0 0 8px rgba(70, 170, 100, 0.4);
+  color: #FFD700;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
 }
 
 body.dark #shop-content button {
-  background: linear-gradient(145deg, #3b8055, #2d6d47);
-  color: #e7fff0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(145deg, #004CFF, #D62828);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 body.dark .menu-btn {
-  background: linear-gradient(90deg, #1e4f36, #2d6d47); /* fond foncé mais visible */
-  color: #c8f2cc; /* texte clair mais pas blanc pur */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4); /* ombre pour le relief */
+  background: linear-gradient(90deg, #0030A0, #004CFF);
+  color: #FFD700;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
   transition: all 0.3s ease;
 }
 
 body.dark .menu-btn:hover {
-  background: linear-gradient(90deg, #2a6b4b, #3b8055); /* hover plus visible */
+  background: linear-gradient(90deg, #005CFF, #FF6B00);
   transform: translateY(-1px);
   box-shadow: 0 6px 14px rgba(0,0,0,0.45);
 }
 
 body.dark #shop-content button:hover {
-  background: linear-gradient(145deg, #4a9363, #356d4f);
+  background: linear-gradient(145deg, #FF6B00, #D62828);
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.45);
 }
 
 body.dark header {
-  border-bottom: 2px solid #3b7a57;
+  border-bottom: 2px solid #FFD700;
 }
 
 body.dark footer {
-  border-top: 2px solid #3b7a57;
+  border-top: 2px solid #FFD700;
 }
 
 /* --- MODE CLAIR --- */
 body.light {
-  background: linear-gradient(180deg, #e6f2eb 0%, #dbe8df 100%);
-  color: #1e3a2c;
+  background: linear-gradient(180deg, #FFF2CC 0%, #FFE0A8 100%); 
+  color: #1c1a1a;
 }
 
 body.light header {
-  border-bottom: 2px solid #5fa276;
+  border-bottom: 2px solid #FF6B00;
 }
 
 body.light footer {
-  border-top: 2px solid #5fa276;
+  border-top: 2px solid #FF6B00;
 }
 
 body.light .menu-btn {
-  background: linear-gradient(90deg, #4b9e6f, #5fa276); /* fond plus contrasté */
-  color: #fff; /* texte bien visible */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25); /* ombre plus marquée */
+  background: linear-gradient(90deg, #FF6B00, #FFD700);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
   transition: all 0.3s ease;
 }
 
 body.light .menu-btn:hover {
-  background: linear-gradient(90deg, #58b47f, #79b58a); /* effet hover plus visible */
+  background: linear-gradient(90deg, #FF8C1A, #FFE066);
   transform: translateY(-1px);
   box-shadow: 0 6px 14px rgba(0,0,0,0.3);
 }
 
 body.light #shop-content button {
-  background: linear-gradient(145deg, #8ed0a0, #57b286);
+  background: linear-gradient(145deg, #FF6B00, #FFD700);
   color: #fff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 body.light #shop-content button:hover {
-  background: linear-gradient(145deg, #a0e0b7, #67c497);
+  background: linear-gradient(145deg, #FF8C1A, #FFE066);
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
 }
