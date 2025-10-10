@@ -111,12 +111,12 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         name: "Amine Uchiha",
         photo: "img/Obitolegoat.jpg",
-        role: "Chef manipulateur de l'Akatsuki; Détenteur du pouvoir de Rikudo",
+        role: "Chef manipulateur de l'Akatsuki; Détenteur du pouvoir du Rikudo",
         email: "obito.uchiha@konoha.com",
         github: "https://github.com/sahbi60",
         web: "pages/resistor/resistor.html",
-        tech: ["Astartes Ridiculous","debilus primus"],
-        bio: "Ouga bouga mon cerveau c'est de la grosse purée waagh"
+        tech: ["Sharingan; Mangekyo Sharingan; Kamui; Genjutsu; Taijutsu; Senjutsu; Izanagi"],
+        bio: "De héros brisé à empereur masqué, il a manipulé les ombres et fait plier le monde à sa volonté"
       }
 
   ];
