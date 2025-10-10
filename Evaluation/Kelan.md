@@ -9,7 +9,7 @@
 
 2. Quelle balise permet d’afficher le titre d’une page dans l’onglet du navigateur ?  
    - [ ] `<head>`  
-   - [X] `<title>`  
+   - [X] `<title>` 
    - [ ] `<h1>`  
 
 3. Quelle balise permet d’insérer une image ?  
