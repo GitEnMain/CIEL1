@@ -21,10 +21,11 @@ let seconds = 0;
 let autoClickInterval = null;
 let autoClickBtnHidden = false;
 
-
-// Coûts évolutifs
 let upgradeCost = 50;
 let autoClickCost = 200;
+
+// 💥 Valeur d'amélioration dynamique
+let upgradeIncrement = 0.25;
 
 // --- RÉFÉRENCES DOM ---
 const scoreEl = document.getElementById('score');
@@ -35,6 +36,7 @@ const autoClickBtn = document.getElementById('autoclick');
 const timeEl = document.getElementById('time');
 const autoClickStatusEl = document.getElementById('autoclick-status');
 const resetBtn = document.getElementById('rdata');
+
 resetBtn.addEventListener('click', () => {
   if (confirm("Voulez-vous vraiment réinitialiser le jeu ?")) {
     resetGame();
@@ -108,9 +110,7 @@ toggleBtn.addEventListener('click', () => {
   }
 });
 
-
-// Clique
-
+// --- CLIQUE ---
 manga.addEventListener('click', () => {
   score += 1 * multiplier;
   updateDisplay();
@@ -121,12 +121,10 @@ manga.addEventListener('click', () => {
 upgradeBtn.addEventListener('click', () => {
   if (score >= upgradeCost) {
     score -= upgradeCost;
-    multiplier += 0.25;
-    upgradeCost = Math.floor(upgradeCost * 1.05);
+    multiplier += upgradeIncrement;
+    upgradeCost = Math.floor(upgradeCost * 1.075);
     updateDisplay();
     saveGame();
-  } else {
-    alert("Pas assez de points !");
   }
 });
 
@@ -141,8 +139,6 @@ autoClickBtn.addEventListener('click', () => {
     autoClickBtnHidden = true;
     autoClickBtn.style.display = "none";
     saveGame();
-  } else {
-    alert("Pas assez de points !");
   }
 });
 
@@ -163,27 +159,42 @@ function updateDisplay() {
   timeEl.textContent = seconds + 's';
   autoClickStatusEl.textContent = autoClickers > 0 ? "On" : "Off";
 
+  // Changer le personnage selon le multiplicateur + ajuster le bonus
+  if (multiplier < 10) {
+    manga.src = "img/goku.png";
+    upgradeIncrement = 0.25;
+  } else if (multiplier < 50) {
+    manga.src = "img/vegeta.png";
+    upgradeIncrement = 0.5;
+  } else {
+    manga.src = "img/gohan.png";
+    upgradeIncrement = 1;
+  }
 
-  // Met à jour les textes des boutons avec le prix actuel
-
-  upgradeBtn.textContent = `Acheter amélioration (+0.25/clic) - ${upgradeCost} pts`;
+  // Texte des boutons
+  upgradeBtn.textContent = `Acheter amélioration (+${upgradeIncrement}/clic) - ${upgradeCost} pts`;
   autoClickBtn.textContent = `Acheter auto-click (1/sec) - ${autoClickCost} pts`;
 
-  // Mise à jour de l’image du perso en fonction du multiplicateur
-  if (multiplier === 1) {
-    manga.src = "img/goku.png";
-  } else if (multiplier >= 10) {
-    manga.src = "img/vegeta.png";
-  } else if (multiplier >= 50) {
-    manga.src = "img/gohan.png";
+  // Désactiver les boutons si fonds insuffisants
+  if (score < upgradeCost) {
+    upgradeBtn.disabled = true;
+    upgradeBtn.classList.add('disabled');
   } else {
-    manga.src = "img/goku.png";
+    upgradeBtn.disabled = false;
+    upgradeBtn.classList.remove('disabled');
+  }
+
+  if (score < autoClickCost) {
+    autoClickBtn.disabled = true;
+    autoClickBtn.classList.add('disabled');
+  } else {
+    autoClickBtn.disabled = false;
+    autoClickBtn.classList.remove('disabled');
   }
 }
 
-
+// --- RÉINITIALISATION DU JEU ---
 function resetGame() {
-  
   score = 0;
   multiplier = 1;
   autoClickers = 0;
@@ -200,6 +211,5 @@ function resetGame() {
   }
 
   updateDisplay();
-
   localStorage.removeItem('mangaClickerSave');
 }

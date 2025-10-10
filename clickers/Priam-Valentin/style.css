@@ -313,3 +313,27 @@ body.light #shop-content button:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
 }
+
+/* --- BOUTONS DÉSACTIVÉS --- */
+#shop-content button.disabled,
+#shop-content button:disabled {
+  background: #777 !important;
+  color: #ccc !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+  box-shadow: none !important;
+  opacity: 0.8 !important;
+  border: none !important;
+  background-image: none !important;
+}
+
+/* Désactive totalement les effets de survol */
+#shop-content button.disabled:hover,
+#shop-content button:disabled:hover {
+  background: #777 !important;
+  color: #ccc !important;
+  transform: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
