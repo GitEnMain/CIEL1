@@ -10,6 +10,7 @@
   <header>
     <h1>🌑 Manga Clicker 🌿</h1>
     <button id="theme-toggle">🌙 / ☀️</button>
+    <button id="rdata">Reset data</button>
   </header>
 
   <main class="game-layout">
@@ -18,7 +19,7 @@
     <aside class="panel left">
       <button class="toggle-btn menu-btn" data-target="stats-content">📊 Statistiques</button>
       <div id="stats-content" class="panel-content">
-        <p>💥 Points : <span id="score">0</span></p>
+        <p>💴 Yens : <span id="score">0</span></p>
         <p>⚡ Multiplicateur : x<span id="multiplier">1</span></p>
         <p>🕐 Temps de jeu : <span id="time">0s</span></p>
         <p>🤖 Auto-Click : <span id="autoclick-status">Off</span></p>
@@ -28,8 +29,8 @@
     <!-- CLICKER CENTRAL -->
     <section class="click-area">
       <div class="click-zone">
-        <img id="manga" src="img/goku.png" alt="Manga Image" />
-        <p class="hint">Clique sur Goku pour gagner des Yens 💴</p>
+        <img id="manga" src="" alt="Manga Image" />
+        <p class="hint">Clique sur l'image pour gagner des Yens 💴</p>
       </div>
     </section>
 
@@ -37,7 +38,7 @@
     <aside class="panel right">
       <button class="toggle-btn menu-btn" data-target="shop-content">🛒 Boutique</button>
       <div id="shop-content" class="panel-content">
-        <button id="upgrade">Acheter amélioration (+1/clic) - 50 pts</button>
+        <button id="upgrade">Acheter amélioration (0.25/clic) - 50 pts</button>
         <button id="autoclick">Acheter auto-click (1/sec) - 200 pts</button>
       </div>
     </aside>
