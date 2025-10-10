@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- GLOBAL --- */
+body {
+  font-family: "Kanit", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+#theme-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #336b4d;
+  color: #fff;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: background 0.3s;
+}
+
+#theme-toggle:hover {
+  background: #58b47f;
+}
+
+#shop-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Styles communs à tous les boutons */
+#shop-content button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* --- PANELS --- */
+.panel {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.panel.active-panel {
+  padding: 1rem;
+  border: 2px solid currentColor;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  border-radius: 12px;
+}
+
+/* --- PANEL CONTENT --- */
+.panel-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.panel-content.open {
+  max-height: 500px;
+  opacity: 1;
+}
+
+/* --- MENU BUTTONS --- */
+.menu-btn {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+/* --- CLICK AREA --- */
+.click-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.click-zone img {
+  width: 260px;
+  height: 260px;
+  border-radius: 0; /* plus de rond */
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.3s;
+}
+
+.click-zone img:hover {
+  transform: scale(1.05);
+}
+
+.click-zone img:active {
+  transform: scale(0.9);
+}
+
+
+/* --- HEADER & FOOTER --- */
+header, footer {
+  padding: 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* --- GAME LAYOUT --- */
+.game-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 1.5rem;
+  flex: 1;
+  padding: 2rem;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 900px) {
+  .game-layout {
+    grid-template-columns: 1fr;
+  }
+  .panel {
+    width: 90%;
+    margin: 0 auto 1rem;
+  }
+  .click-area {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* --- ANIMATION DE FOND --- */
+body::before {
+  content: "";
+  position: fixed;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  animation: jadePulse 10s infinite ease-in-out;
+  z-index: -1;
+}
+
+@keyframes jadePulse {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+/* --- MODE SOMBRE --- */
+body.dark {
+  background: linear-gradient(180deg, #0d1f16 0%, #13281e 100%);
+  color: #e0f2e5;
+}
+
+body.dark h1 {
+  color: #b7f2c1;
+  text-shadow: 0 0 8px rgba(70, 170, 100, 0.4);
+}
+
+body.dark #shop-content button {
+  background: linear-gradient(145deg, #3b8055, #2d6d47);
+  color: #e7fff0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+body.dark .menu-btn {
+  background: linear-gradient(90deg, #1e4f36, #2d6d47); /* fond foncé mais visible */
+  color: #c8f2cc; /* texte clair mais pas blanc pur */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4); /* ombre pour le relief */
+  transition: all 0.3s ease;
+}
+
+body.dark .menu-btn:hover {
+  background: linear-gradient(90deg, #2a6b4b, #3b8055); /* hover plus visible */
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.45);
+}
+
+body.dark #shop-content button:hover {
+  background: linear-gradient(145deg, #4a9363, #356d4f);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.45);
+}
+
+body.dark header {
+  border-bottom: 2px solid #3b7a57;
+}
+
+body.dark footer {
+  border-top: 2px solid #3b7a57;
+}
+
+/* --- MODE CLAIR --- */
+body.light {
+  background: linear-gradient(180deg, #e6f2eb 0%, #dbe8df 100%);
+  color: #1e3a2c;
+}
+
+body.light header {
+  border-bottom: 2px solid #5fa276;
+}
+
+body.light footer {
+  border-top: 2px solid #5fa276;
+}
+
+body.light .menu-btn {
+  background: linear-gradient(90deg, #4b9e6f, #5fa276); /* fond plus contrasté */
+  color: #fff; /* texte bien visible */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25); /* ombre plus marquée */
+  transition: all 0.3s ease;
+}
+
+body.light .menu-btn:hover {
+  background: linear-gradient(90deg, #58b47f, #79b58a); /* effet hover plus visible */
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
+
+body.light #shop-content button {
+  background: linear-gradient(145deg, #8ed0a0, #57b286);
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+body.light #shop-content button:hover {
+  background: linear-gradient(145deg, #a0e0b7, #67c497);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
