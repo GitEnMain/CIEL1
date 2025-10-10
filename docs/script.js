@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
       role: "Combattant de Tilted Tower",
       email: "lucasgourdain772@gmail.com",
       github: "https://github.com/MR-LucGour",
-      web: "",
+      web: "pages/Carte-Reseaux/index.html",
       tech: ["Rapidité , pro builder , fragger/igl "],
       },   
       {
