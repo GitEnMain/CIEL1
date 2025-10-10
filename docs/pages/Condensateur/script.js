@@ -49,34 +49,14 @@ document.addEventListener("DOMContentLoaded", function () {
       },      
       {
         name: "Donnie Thornberry",
-        photo: "img/Donnie.png",
+        photo: "img/donnie.png",
         role: "Enfant sauvage adopté par les Delajungle",
         email: "donnie@cocotier.com",
         github: "https://github.com/GitEnMain",
         web: "pages/Arduino/arduino.html",
         tech: ["Agilité jungle", "Énergie infinie", "JavaScript"],
         bio: "Un mélange unique de cris, d’énergie et d’instinct animal."
-      },
-      {
-        name: "Priam Zolex",
-        photo: "img/frieren.jpg",
-        role: "Maitre Capybara, Papa de 11 enfant",
-        email: "zolexdb@gmail.com",
-        github: "https://github.com/Priammm",
-        web: "pages/Microprocesseur/index.html",
-        tech: ["Singe suprême", "Angles morts", "Coup de pression du daron"],
-        bio: "Singe de 15 mêtre de haut et Maitre des Capybara"
       },      
-      {
-        name: "9/9/9",
-        photo: "pages/Condensateur/img/otronic-10x-condensateur-1uf-50v-electrolytique-el.webp",
-        role: "codeur html css et js",
-        email: "mailer-daemon@googlemail.com",
-        github: "https://github.com/01234567891011121314151617181920",
-        web: "pages/Condensateur/index.html",
-        tech: ["Windows NT", "DOS", "Linux", "FreeBSD", "QNX", "AmigaOS", "AIX", "NeXTSTEP", "OS/2", "Android", "iOS/iPadOS"],
-        bio: "0x0000007B (INACCESSIBLE_BOOT_DEVICE)"
-      },
   ];
   
   

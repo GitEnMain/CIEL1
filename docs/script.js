@@ -68,7 +68,18 @@ document.addEventListener("DOMContentLoaded", function () {
         bio: "Singe de 15 mêtre de haut et Maitre des Capybara"
       },      
       {
+        name: "Kelan Martvill",
+        photo: "img/JAN LASSAL.jpeg",
+        role: "Un gars qui essaye de réussir, Célibataire depuis 1874",
+        email: "kelanbvs60@gmail.com",
+        github: "https://github.com/Klequette307",
+        web: "pages/Buzzer/buzzer.html",
+        tech: ["Glandeur professionel", "I'M BATMAN", "La soudure c cool"],
+        bio: "Perso je m'en fiche des consoles next gen, j'ai la PS3"
+      },
+      { 
         name: "K̵̢̢̨̛̛̛̛̛̛̫͈̪̺̜͕̪̦͕͚̙̘̞͆̀̂́̋̎̒̾͆͗̓̓͂̑̋̑̄͛̌͂̉̉̒̈́̇͛́̓́̽̄̇͒̎͑̒̍̀͑͊́͊̒̀̾̅͆͒́̀͆̅̂͒̊̅̿̈̀̽͊́̿̌̄͂̒͌̄̎͌͗̇͂͊̍̒̔̌̿̎͋́̊̍̌́̀̑́̿͊̂̆͒͒͊͊̑́̽̓͂̿̃́̀͌̉̑́͐̋̆̎̒̊̈́͌́̑̉͛̊̀̃̽̓̔̆̽̐͐̑̿̐͑͋̂̾̇͑͌̒̂͌̐̈́́̍̇̽̆́̄͗̑̅͊͋̀͗͂̈́̒́̔̀̋̆́͌̅́̒̈́̔̆̈́̈́̍̂̅̈́̿̔̀̓̕͘̚̚̕͘͘͘͘̕͘̕̚͝͝͝͠͠͠͝͝͝͝͠ȩ̶̢̧̨̧̨̧̛̛͖̤͓̲̹̹͈̜̠̭̲̮̠̲̟̯̖͓̞̦̮̣̞͉͈̤̺͚̼́͋̅͊́̏͐̈̃̔͌̊̃̍̋̀̊̍͐̋̇̽̓͌́͌̉́̎̄́̍͒́̒͌̎͌̋̕̚͝͝͠͠ͅͅn̷̨̧̢̨̧̨̡̧̡̧̢̢̧̧̢̛̛̛̗̠̳͓̟͕̪̹̱͎̜̙̜̱̹͙̪͇̺̜͕̯͚͓̩̰̺͓̙̭̙̮̮̻͇̺̻̝͓̠̮̫̮̗̼̣̗̞̮̻͕̠͈̘͚̦̰̰̼̺̣̫̹̖̘̙̯̹̭͍̜͍̲̻̞̭̖͙͉̖͕͙̞̮̹̮̘̙̣̦̫̻̺̙̤̹̙͎̰̮̝͎̖͈̦̣̥̯͎͇̲̠̪̞̱̩͖̪̞͎̣̣̩̗̖̟̥̖̯̤̬͈̱̞̝̗̳̩̤̞̱̹̖̤̩̥͚̳̰̟̦̜͓̙̲͉̖̞͓̙̖̤̻̳̺̺̠̋̿̑͒̃̾̀̑̓̆͗͑̈́̔̆̄̒̈́͒̈͐̑̏̎͊̄̈̏̑͐̂͊̂͛̈̀̆́̔̅͛̅̒͊̉̇̊̈́̄͐́̽̀̇͋̄́͌̒̈́̒̿͑̊̔̆͆͒͊̄́̅͋̍̌̒͆̄͗̅̑̐̇͆̔̈̍͑́͆̀̉̃̂͒͋̏̈͊́̔̇̍̊̂͌̐̀͒̌̀̍̿̌̄̾̓͛͌̀̈͋̾͌̀͆̉̈́̂̑́̃̎̎̑̿̈́̀̈͌͒̇̍̄̀̈̈́̈́͂̆̌́̍̈́̿͒̓̎̆͌͑̊̈̄̅͛̌̓̒̇́͘̚͘̕͘̕͘̕̚̕̚̕͘̕͘͘͘̕̚͘͘͘͜͜͜͜͠͝͝͝͝͝͝͠͝͝͠͝͝͝͠͠͠͝͠͠͠ͅͅͅͅͅȧ̶̛̛̛̛̻̺̹̱͍̘̦͍̖̥̰̤̳̦̩͚̱͔̞͉̘̊̀̍̔̆̀̿̎̒̽̇̈́͋́̋̃͗̄̃̐͂͋̐͛̋̍́̄͋̈́̾̈͑̎̓̑͌̄̓̔͆͐͛̇̌́̿͌͑͋̀́̑͛̿̄̀̆͗́͂̓̍̿́̀́̎́͂̆̏͊̆̏̄̔̏̊̊̾̾̽̅̎̓̐͆̃͋̀̂̑̎̾̀̅̃̈́̋̈̿̉̐́̃̀̓̾̃̃̒̌̈́̽̿̉̄́͛̀̉̈̓̌̊̓̈̀̽̉͐̅̃̇̋̐̐́̂̈́̏̃̌̔̎̾̎͗͐͋͆̆̄̌̇̈́̿̅̓͗̉̏̎̓̀̽̅͒̓͗̄͌͐̾̈͒̌̎͛̀̆̄̾̅̑̾̇̀̍̉̀̓̋͑̂̆́̈́͛̓̑͐̀̏̇̽̀͂͆͒͐̀̓̔̎̊̽̎͑̽͌̏̄͐̃̽͗̽̚̚͘̚̚̕̚̕͘̕͘̚͘͘̚͘͝͝͝͝͝͠͝͠͠͝͠͝͝͝͝͠͝͠n̵̡̧̢̨̡̡̡̧̢̛̛̛͕̦̠̩̝͖͕͇̣̜̖̬̝͔̺̩͓̺̮̺̖̤̩̥̘̣̝̯͎̯̻̪̥̱̬̤͙̝̖̞͚͍̰͉͎̗̳͈͉̳͉̣̠̫̮͚͓̯̰̺̗̥͖̘͖̘̘͉̲̙̳̝̳̹̪̲̮̻͚͎̮̦͖̫͙͔̠͉̰̻̤̲͚͍͎̖͔͔̼̭̜͛̅̾̿͗͋̋̅̾͋͑̅̇̌̓̈̅̑̓̂͑̽͊̿́̈͒̀̿̆̐͌͊̇̈̉̓͌̄̒́̎̂̓͂̊͆̋̓͛͛́̂̀̉̈́̎͐̇͗̑̒̇̆͆̈́̈̍̔͂̌̓̈͐͒̈́̃͆̿̍̊̇͑̓̌̇̑̈́̂̓̐̿̑͒̂͑͒́͛̈́̆͋͆̋̀̀̊̈̔̄͆́̓̏̓͊̓̇̊̿̾̂̊̌̚͘̚͘̚̚͜͜͜͜͠͠͝͠͠͠͝͠͝͝ͅͅͅͅͅ",
+        name: "Kénan 01234567891011121314151617181920",
         photo: "pages/Condensateur/img/otronic-10x-condensateur-1uf-50v-electrolytique-el.webp",
         role: "codeur html css et js",
         email: "mailer-daemon@googlemail.com",
@@ -86,7 +97,25 @@ document.addEventListener("DOMContentLoaded", function () {
         web: "pages/Led/index.html",
         tech: ["Block dans tes chicos", "Smashhhhhh", "Miaoumax"],
         bio: "Oue pas mal"
-
+      },
+      {
+      name: "Mr-LucGour",
+      photo: "img/songoku.png",
+      role: "Combattant de Tilted Tower",
+      email: "lucasgourdain772@gmail.com",
+      github: "https://github.com/MR-LucGour",
+      web: "pages/Carte-Reseaux/index.html",
+      tech: ["Rapidité , pro builder , fragger/igl , Trop fort au snipe "],
+      },
+      {
+        name: "Noah shinigami",
+        photo: "img/ichigo.jpg",
+        role: "Arracheur d'Hollow",
+        email: "brayannabassa@gmail.com",
+        github: "https://github.com/noahabassa-bot",
+        web: "pages/Led/index.html",
+        tech: ["Bankai", "Bankai", "White"],
+        bio: "Shinigami remplacant"
       },   
       {
         name: "Enzo Salutoi",
@@ -109,6 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
         bio: "Ouga bouga mon cerveau c'est de la grosse purée waagh"
       },
       {
+<<<<<<< HEAD
         name: "Amine Uchiha",
         photo: "img/Obitolegoat.jpg",
         role: "Chef manipulateur de l'Akatsuki; Détenteur du pouvoir du Rikudo",
@@ -118,7 +148,30 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["Sharingan; Mangekyo Sharingan; Kamui; Genjutsu; Taijutsu; Senjutsu; Izanagi"],
         bio: "De héros brisé à empereur masqué, il a manipulé les ombres et fait plier le monde à sa volonté"
       }
+=======
+<<<<<<< HEAD
+        name: "Halil-Enes Kuzu",
+        photo: "img/TK.jpg"
+        role: "On est 55 Milliards sur Terre",
+        email: "abch.70.234.5@gmail.com",
+        github: "https://github.com/CO6z",
+        web: "",
+        tech: ["j'avais le rouleau de pq collé au cul fdp"],
+        bio: "jchuis parti comme un clochard"
+      },
+>>>>>>> ace04dca86b22cc924bacab221b2302816babfa0
 
+=======
+        name: "Antony daiki",
+        photo: "img/daiki.jpg",
+        role: "le maitre du basket",
+        email: "babahomer98@gmail.com",
+        github: "https://github.com/babahomer1",
+        web: "",
+        tech: ["le plus fort","prodiges"],
+        bio: "le seul qui puisse me battre,c'est moi même"
+      },
+>>>>>>> d358de3b246d0e9d1234ad95910cc341f6ff8686
   ];
   
   

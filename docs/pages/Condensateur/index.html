@@ -1,14 +1,108 @@
-<!DOCTYPE html>
-	<html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Composants electrique</title>
-		<h1>Composants Electronique Classique</h1>
-		</head>
-		<body>
-			<h2>Composants electrique</h2>
-			<img src="img/otronic-10x-condensateur-1uf-50v-electrolytique-el.webp" style="width:200px;height:200px;">
-			<p>Condensateur</p>
-		</body>
-	</html>
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Présentation d'une condensateur' : modèles, spécifications, entrées/sorties, usages et ressources.">
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <title>Condensateur</title>
+</head>
+<body>
+  
+  <header class="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__content">
+      <div class="hero__badge">Guide Matériel</div>
+      <h1 class="hero__title"><span class="emoji" aria-hidden="true">🔋</span> Condensateur</h1>
+      <p class="hero__subtitle">
+        Composants pour amplifier, maintenir ou filtrer l'électricité.
+      </p>
+
+      <nav class="hero__cta">
+        <a href="../../index.html" class="btn btn--ghost">Home</a>
+        <a href="#models" class="btn btn--ghost">Modèles</a>
+        <a href="#io" class="btn btn--ghost">Entrées/Sorties</a>
+        <a href="#specs" class="btn btn--ghost">Spécifications</a>
+      </nav>
+    </div>
+
+    <button id="themeToggle" aria-label="Changer de thème">🌙</button>
+  </header>
+
+  <main class="container">
+    <section class="intro card">
+      <h2>Pourquoi un condensateur</h2>
+      <p>
+        Il est important dans les appareil délicate et puissants comme:
+      </p>
+      <p>
+        Un ordinateur
+      </p>
+      <p>
+        Une machine à laver
+      </p>
+      <p>
+        Une prise à chargeur
+      </p>
+      <p>
+        Un haut-parleur
+      </p>
+
+      <ul class="pill-list">
+        <li>Appareil de filtrage</li>
+        <li>Batterie simple et minuscule</li>
+        <li>Amélioration d'appareil</li>
+        <li>Supercharge</li>
+      </ul>
+    </section>
+
+    <section id="models">
+      <h2>Modèles courants</h2>
+      <div class="grid cards">
+        <article class="card">
+          <h3>Condensateurs céramiques</h3>
+          <p>Charge plus faible que les condensateurs électrolytiques, mais ils entraînent moins de pertes de courant.</p>
+        </article>
+
+        <article class="card">
+          <h3>Condensateurs électrolytiques</h3>
+          <p>Supporte une charge électrique énorme</p>
+        </article>
+
+        <article class="card">
+          <h3>Supercondensateurs</h3>
+          <p>Stocke une grande quantité d’énergie.</p>
+          <p>Charge, stocke et décharge l’énergie comme des batteries.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>Exemples d’usages</h2>
+      <div class="grid gallery">
+        <figure class="card media">
+          <div class="media__ph"><img src="img/domotique.png" alt="Domotique" class="media__overlay"></div>
+          <figcaption>Domotique (contrôle de relais, capteurs de température)</figcaption>
+        </figure>
+        <figure class="card media">
+          <div class="media__ph"><img src="img/robot.png" alt="Robotique" class="media__overlay"></div>
+          <figcaption>Robotique (moteurs, capteurs ultrasons)</figcaption>
+        </figure>
+        <figure class="card media">
+          <div class="media__ph"><img src="img/prototypage.png" alt="Prototypage" class="media__overlay"></div>
+          <figcaption>Prototypage rapide (breadboard + composants)</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <button id="backToTop" aria-label="Revenir en haut" title="Retour en haut">▲</button>
+
+  <footer class="site-footer">
+    <div class="container"><p>Dérnière mise à jour (en format DD/MM/YYYY) le: <strong>10/10/2025</strong></p></div>
+  </footer>
+</body>
+</html>
