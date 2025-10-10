@@ -96,7 +96,6 @@ document.addEventListener("DOMContentLoaded", function () {
       web: "",
       tech: ["Rapidité , pro builder , fragger/igl "],
       },   
-<<<<<<< HEAD
       
       {
         name: "Noah shinigami",
@@ -108,7 +107,6 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["Bankai", "Bankai", "White"],
         bio: "Shinigami remplacant"
       },   
-=======
       {
         name: "Enzo Salutoi",
         photo: "img/black.jpg",
@@ -139,8 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["le plus fort","prodiges"],
         bio: "le seul qui puisse me battre,c'est moi même"
       },
->>>>>>> 58405e4b5f3805acefc64850a8214d1a7563e0e1
-
+.
   ];
   
   
