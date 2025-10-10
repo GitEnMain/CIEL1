@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
         email: "kelanbvs60@gmail.com",
         github: "https://github.com/Klequette307",
         web: "pages/Buzzer/buzzer.html",
-        tech: ["Glandeur professionel", "I'M BATMAN", "La soudure c cool"],
+        tech: ["Glandeur professionnel", "I'M BATMAN", "La soudure c cool"],
         bio: "Perso je m'en fiche des consoles next gen, j'ai la PS3"
       },
       { 
@@ -104,8 +104,8 @@ document.addEventListener("DOMContentLoaded", function () {
       role: "Combattant de Tilted Tower",
       email: "lucasgourdain772@gmail.com",
       github: "https://github.com/MR-LucGour",
-      web: "",
-      tech: ["Rapidité , pro builder , fragger/igl "],
+      web: "pages/Carte-Reseaux/index.html",
+      tech: ["Rapidité , pro builder , fragger/igl , Trop fort au snipe "],
       },
       {
         name: "Noah shinigami",
@@ -136,6 +136,26 @@ document.addEventListener("DOMContentLoaded", function () {
         web: "",
         tech: ["Astartes Ridiculous","debilus primus"],
         bio: "Ouga bouga mon cerveau c'est de la grosse purée waagh"
+      },
+      {
+        name: "Amine Uchiha",
+        photo: "img/Obitolegoat.jpg",
+        role: "Chef manipulateur de l'Akatsuki; Détenteur du pouvoir du Rikudo",
+        email: "obito.uchiha@konoha.com",
+        github: "https://github.com/sahbi60",
+        web: "pages/resistor/resistor.html",
+        tech: ["Sharingan; Mangekyo Sharingan; Kamui; Genjutsu; Taijutsu; Senjutsu; Izanagi"],
+        bio: "De héros brisé à empereur masqué, il a manipulé les ombres et fait plier le monde à sa volonté"
+      },
+      {
+        name: "Halil-Enes Kuzu",
+        photo: "img/TK.jpg",
+        role: "On est 55 Milliards sur Terre",
+        email: "abch.70.234.5@gmail.com",
+        github: "https://github.com/CO6z",
+        web: "",
+        tech: ["j'avais le rouleau de pq collé au cul"],
+        bio: "jchuis parti comme un clochard"
       },
       {
         name: "Antony daiki",

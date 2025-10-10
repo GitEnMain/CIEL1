@@ -108,9 +108,14 @@ toggleBtn.addEventListener('click', () => {
   }
 });
 
+<<<<<<< HEAD
 // --- CLIQUE SUR MANGA ---
+=======
+
+// Clique
+>>>>>>> ee0d905159a9ba4a0bc8b851216803c1496cda8c
 manga.addEventListener('click', () => {
-  score += 1 * multiplier;
+  score += 0.25 * multiplier;
   updateDisplay();
   saveGame();
 });
@@ -161,6 +166,10 @@ function updateDisplay() {
   timeEl.textContent = seconds + 's';
   autoClickStatusEl.textContent = autoClickers > 0 ? "On" : "Off";
 
+<<<<<<< HEAD
+=======
+  // Met à jour les textes des boutons avec le prix actuel
+>>>>>>> ee0d905159a9ba4a0bc8b851216803c1496cda8c
   upgradeBtn.textContent = `Acheter amélioration (+0.25/clic) - ${upgradeCost} pts`;
   autoClickBtn.textContent = `Acheter auto-click (1/sec) - ${autoClickCost} pts`;
 
@@ -174,6 +183,7 @@ function updateDisplay() {
   }
 }
 
+<<<<<<< HEAD
 function resetGame() {
   
   score = 0;
@@ -196,3 +206,15 @@ function resetGame() {
   localStorage.removeItem('mangaClickerSave');
 }
 
+=======
+// Changer de perso
+let img = document.getElementById("manga");
+
+if (multiplier === 1) {
+  img.src = "img/goku.png";
+} else if (multiplier === 10) {
+  img.src = "img/vegeta.png";
+} else {
+  img.src = "img/goku.png";
+}
+>>>>>>> ee0d905159a9ba4a0bc8b851216803c1496cda8c
