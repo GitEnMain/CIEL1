@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       {
         name: "Halil-Enes Kuzu",
-        photo: "img/TK.jpg",
+        photo: "img/tk.jpg",
         role: "On est 55 Milliards sur Terre",
         email: "abch.70.234.5@gmail.com",
         github: "https://github.com/CO6z",
