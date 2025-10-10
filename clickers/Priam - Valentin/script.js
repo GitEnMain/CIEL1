@@ -19,6 +19,8 @@ let multiplier = 1;
 let autoClickers = 0;
 let seconds = 0;
 let autoClickInterval = null;
+let autoClickBtnHidden = false;
+
 
 // Coûts évolutifs
 let upgradeCost = 50;
@@ -31,6 +33,13 @@ const manga = document.getElementById('manga');
 const upgradeBtn = document.getElementById('upgrade');
 const autoClickBtn = document.getElementById('autoclick');
 const timeEl = document.getElementById('time');
+const autoClickStatusEl = document.getElementById('autoclick-status');
+const resetBtn = document.getElementById('rdata');
+resetBtn.addEventListener('click', () => {
+  if (confirm("Voulez-vous vraiment réinitialiser le jeu ?")) {
+    resetGame();
+  }
+});
 
 // --- CHARGER LA SAUVEGARDE ---
 function loadSave() {
@@ -42,12 +51,21 @@ function loadSave() {
     seconds = save.seconds || 0;
     upgradeCost = save.upgradeCost || 50;
     autoClickCost = save.autoClickCost || 200;
+    autoClickBtnHidden = save.autoClickBtnHidden || false;
+
+    if (autoClickBtnHidden) {
+      autoClickBtn.style.display = "none";
+    } else {
+      autoClickBtn.style.display = "inline-block";
+    }
+
     updateDisplay();
     if (autoClickers > 0) startAutoClick();
   } else {
     updateDisplay();
   }
 }
+
 loadSave();
 
 // --- SAUVEGARDER ---
@@ -58,7 +76,8 @@ function saveGame() {
     autoClickers,
     seconds,
     upgradeCost,
-    autoClickCost
+    autoClickCost,
+    autoClickBtnHidden,
   };
   localStorage.setItem('mangaClickerSave', JSON.stringify(saveData));
 }
@@ -89,20 +108,24 @@ toggleBtn.addEventListener('click', () => {
   }
 });
 
+<<<<<<< HEAD
+// --- CLIQUE SUR MANGA ---
+=======
 
 // Clique
+>>>>>>> ee0d905159a9ba4a0bc8b851216803c1496cda8c
 manga.addEventListener('click', () => {
   score += 0.25 * multiplier;
   updateDisplay();
   saveGame();
 });
 
-// Acheter amélioration 
+// --- ACHETER AMÉLIORATION ---
 upgradeBtn.addEventListener('click', () => {
   if (score >= upgradeCost) {
     score -= upgradeCost;
     multiplier++;
-    upgradeCost = Math.floor(upgradeCost * 1.1); 
+    upgradeCost = Math.floor(upgradeCost * 1.1);
     updateDisplay();
     saveGame();
   } else {
@@ -110,21 +133,23 @@ upgradeBtn.addEventListener('click', () => {
   }
 });
 
-// Acheter auto-click 
+// --- ACHETER AUTO-CLICK ---
 autoClickBtn.addEventListener('click', () => {
   if (score >= autoClickCost) {
     score -= autoClickCost;
     autoClickers++;
-    autoClickCost = Math.floor(autoClickCost * 1.1); 
+    autoClickCost = Math.floor(autoClickCost * 1.1);
     startAutoClick();
     updateDisplay();
+    autoClickBtnHidden = true;
+    autoClickBtn.style.display = "none";
     saveGame();
   } else {
     alert("Pas assez de points !");
   }
 });
 
-// Fonction d’auto-click
+// --- FONCTION D’AUTO-CLICK ---
 function startAutoClick() {
   if (autoClickInterval) clearInterval(autoClickInterval);
   autoClickInterval = setInterval(() => {
@@ -134,17 +159,54 @@ function startAutoClick() {
   }, 1000);
 }
 
-// Met à jour l'affichage
+// --- MISE À JOUR DE L’AFFICHAGE ---
 function updateDisplay() {
-  scoreEl.textContent = score;
+  scoreEl.textContent = score.toFixed(2);
   multiplierEl.textContent = multiplier;
   timeEl.textContent = seconds + 's';
+  autoClickStatusEl.textContent = autoClickers > 0 ? "On" : "Off";
 
+<<<<<<< HEAD
+=======
   // Met à jour les textes des boutons avec le prix actuel
+>>>>>>> ee0d905159a9ba4a0bc8b851216803c1496cda8c
   upgradeBtn.textContent = `Acheter amélioration (+0.25/clic) - ${upgradeCost} pts`;
   autoClickBtn.textContent = `Acheter auto-click (1/sec) - ${autoClickCost} pts`;
+
+  // Mise à jour de l’image du perso en fonction du multiplicateur
+  if (multiplier === 1) {
+    manga.src = "img/goku.png";
+  } else if (multiplier >= 10) {
+    manga.src = "img/vegeta.png";
+  } else {
+    manga.src = "img/goku.png";
+  }
 }
 
+<<<<<<< HEAD
+function resetGame() {
+  
+  score = 0;
+  multiplier = 1;
+  autoClickers = 0;
+  seconds = 0;
+  upgradeCost = 50;
+  autoClickCost = 200;
+  autoClickBtnHidden = false;
+
+  autoClickBtn.style.display = "inline-block";
+
+  if (autoClickInterval) {
+    clearInterval(autoClickInterval);
+    autoClickInterval = null;
+  }
+
+  updateDisplay();
+
+  localStorage.removeItem('mangaClickerSave');
+}
+
+=======
 // Changer de perso
 let img = document.getElementById("manga");
 
@@ -155,3 +217,4 @@ if (multiplier === 1) {
 } else {
   img.src = "img/goku.png";
 }
+>>>>>>> ee0d905159a9ba4a0bc8b851216803c1496cda8c
