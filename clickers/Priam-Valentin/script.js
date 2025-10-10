@@ -122,7 +122,7 @@ upgradeBtn.addEventListener('click', () => {
   if (score >= upgradeCost) {
     score -= upgradeCost;
     multiplier += 0.25;
-    upgradeCost = Math.floor(upgradeCost * 1.1);
+    upgradeCost = Math.floor(upgradeCost * 1.05);
     updateDisplay();
     saveGame();
   } else {
