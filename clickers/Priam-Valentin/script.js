@@ -100,7 +100,6 @@ function formatTime(seconds) {
   return result.trim();
 }
 
-// --- TIMER MODIFIÉ ---
 setInterval(() => {
   seconds++;
   timeEl.textContent = formatTime(seconds);
