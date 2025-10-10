@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goofy Clicker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>GOOFY AHH CLICKER</h1>
+    <button id="theme-toggle">🌙 / ☀️</button>
+    <button id="rdata">Reset data</button>
+  </header>
+
+  <main class="game-layout">
+
+    <!-- STATS -->
+    <aside class="panel left">
+      <button class="toggle-btn menu-btn" data-target="stats-content">Aura level</button>
+      <div id="stats-content" class="panel-content">
+        <p>Rizz points : </p><span id="score">0</span></p>
+        <p>Sigma bonus : </p><span id="multiplier">1</span></p>
+        <p>Goofing time : <span id="time">0s</span></p>
+        <p>CaseOh jumps : <span id="autoclick-status">Off</span></p>
+      </div>
+    </aside>
+
+    <!-- CLICKER CENTRAL -->
+    <section class="click-area">
+      <div class="click-zone">
+        <img src="meme 1.jpg" alt="goofy one" />
+
+        <p class="hint">Clique pour gagner de l'aura</p>
+      </div>
+    </section>
+
+    <!-- BOUTIQUE -->
+    <aside class="panel right">
+      <button class="toggle-btn menu-btn" data-target="shop-content">Sussy shop</button>
+      <div id="shop-content" class="panel-content">
+        <button id="upgrade">Acheter Sigma value (0.5/clic) - 50 pts</button>
+        <button id="autoclick">Acheter CaseOh (10/sec) - 2000 pts</button>
+      </div>
+    </aside>
+
+  </main>
+
+  <footer>
+    <p>Goofy Clicker BETA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

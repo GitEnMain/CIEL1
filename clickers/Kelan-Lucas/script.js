@@ -24,26 +24,26 @@ let autoClickBtnHidden = false;
 
 // Coûts évolutifs
 let upgradeCost = 50;
-let autoClickCost = 200;
+let autoClickCost = 2000;
 
 // --- RÉFÉRENCES DOM ---
 const scoreEl = document.getElementById('score');
 const multiplierEl = document.getElementById('multiplier');
-const manga = document.getElementById('manga');
+const goofy_one = document.getElementById('goofy one');
 const upgradeBtn = document.getElementById('upgrade');
 const autoClickBtn = document.getElementById('autoclick');
 const timeEl = document.getElementById('time');
 const autoClickStatusEl = document.getElementById('autoclick-status');
 const resetBtn = document.getElementById('rdata');
 resetBtn.addEventListener('click', () => {
-  if (confirm("Voulez-vous vraiment réinitialiser le jeu ?")) {
+  if (confirm("Voulez-vous perdre tout votre rizz ?")) {
     resetGame();
   }
 });
 
 // --- CHARGER LA SAUVEGARDE ---
 function loadSave() {
-  const save = JSON.parse(localStorage.getItem('mangaClickerSave'));
+  const save = JSON.parse(localStorage.getItem('Goofysave'));
   if (save) {
     score = save.score || 0;
     multiplier = save.multiplier || 1;
@@ -79,7 +79,7 @@ function saveGame() {
     autoClickCost,
     autoClickBtnHidden,
   };
-  localStorage.setItem('mangaClickerSave', JSON.stringify(saveData));
+  localStorage.setItem('Goofysave', JSON.stringify(saveData));
 }
 
 setInterval(saveGame, 5000);
@@ -121,8 +121,8 @@ manga.addEventListener('click', () => {
 upgradeBtn.addEventListener('click', () => {
   if (score >= upgradeCost) {
     score -= upgradeCost;
-    multiplier += 0.25;
-    upgradeCost = Math.floor(upgradeCost * 1.05);
+    multiplier += 0.5;
+    upgradeCost = Math.floor(upgradeCost * 1.1);
     updateDisplay();
     saveGame();
   } else {
@@ -142,7 +142,7 @@ autoClickBtn.addEventListener('click', () => {
     autoClickBtn.style.display = "none";
     saveGame();
   } else {
-    alert("Pas assez de points !");
+    alert("Pas assez de rizz !");
   }
 });
 
@@ -166,18 +166,16 @@ function updateDisplay() {
 
   // Met à jour les textes des boutons avec le prix actuel
 
-  upgradeBtn.textContent = `Acheter amélioration (+0.25/clic) - ${upgradeCost} pts`;
-  autoClickBtn.textContent = `Acheter auto-click (1/sec) - ${autoClickCost} pts`;
+  upgradeBtn.textContent = `Acheter Sigma value (+0.5/clic) - ${upgradeCost} pts`;
+  autoClickBtn.textContent = `Acheter CaseOh (10/sec) - ${autoClickCost} pts`;
 
   // Mise à jour de l’image du perso en fonction du multiplicateur
   if (multiplier === 1) {
-    manga.src = "img/goku.png";
+    manga.src = "meme 1.jpg";
   } else if (multiplier >= 10) {
-    manga.src = "img/vegeta.png";
-  } else if (multiplier >= 50) {
-    manga.src = "img/gohan.png";
-  } else {
-    manga.src = "img/goku.png";
+    manga.src = "meme 2.jpg";
+  } else if (multiplier >= 20) {
+    manga.src = "meme 3.jpg";
   }
 }
 
@@ -189,7 +187,7 @@ function resetGame() {
   autoClickers = 0;
   seconds = 0;
   upgradeCost = 50;
-  autoClickCost = 200;
+  autoClickCost = 2000;
   autoClickBtnHidden = false;
 
   autoClickBtn.style.display = "inline-block";
