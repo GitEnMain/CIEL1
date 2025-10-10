@@ -4,51 +4,51 @@
 
 1. Quelle est la signification de HTML ?  
    - [ ] Hyperlinks and Text Markup Language  
-   - [ ] Hyper Text Markup Language  
+   - [X] Hyper Text Markup Language  
    - [ ] Home Tool Markup Language  
 
 2. Quelle balise permet d’afficher le titre d’une page dans l’onglet du navigateur ?  
    - [ ] `<head>`  
-   - [ ] `<title>`  
+   - [X] `<title>`  
    - [ ] `<h1>`  
 
 3. Quelle balise permet d’insérer une image ?  
-   - [ ] `<img>`  
+   - [X] `<img>`  
    - [ ] `<image>`  
    - [ ] `<picture>`  
 
 4. Quelle balise est utilisée pour créer un lien hypertexte ?  
-   - [ ] `<a>`  
+   - [X] `<a>`  
    - [ ] `<link>`  
    - [ ] `<href>`  
 
 5. Quel attribut est obligatoire dans la balise `<img>` ?  
    - [ ] `src`  
-   - [ ] `href`  
+   - [X] `href`  
    - [ ] `alt`  
 
 6. Quelle est la bonne syntaxe pour créer une liste non ordonnée ?  
-   - [ ] `<ul><li>Élément</li></ul>`  
+   - [X] `<ul><li>Élément</li></ul>`  
    - [ ] `<ol><li>Élément</li></ol>`  
    - [ ] `<li><ul>Élément</ul></li>`  
 
 7. La balise `<strong>` sert à :  
-   - [ ] Mettre le texte en gras  
+   - [X] Mettre le texte en gras  
    - [ ] Souligner le texte  
    - [ ] Centrer le texte  
 
 8. Quelle est la structure minimale correcte d’un document HTML ?  
    - [ ] `<html><body></body></html>`  
-   - [ ] `<html><head></head><body></body></html>`  
+   - [X] `<html><head></head><body></body></html>`  
    - [ ] `<body><html></html></body>`  
 
 9. Quelle balise permet d’insérer un commentaire dans le code HTML ?  
-   - [ ] `<!-- commentaire -->`  
+   - [X] `<!-- commentaire -->`  
    - [ ] `// commentaire`  
    - [ ] `/* commentaire */`  
 
 10. Quelle balise permet d’insérer un paragraphe ?  
-    - [ ] `<p>`  
+    - [X] `<p>`  
     - [ ] `<text>`  
     - [ ] `<paragraph>`  
 
@@ -59,7 +59,7 @@
 11. (1 pt) Expliquez la différence entre une balise ouvrante et une balise fermante en HTML, avec un exemple.  
 
 > Réponse :  
-> 
+> La différence entre la balise entrante et fermante est que la balise fermante possède une slash / avant le nom de la fonction (<img></img>)
 
 ---
 
@@ -69,7 +69,15 @@
 - un lien vers `https://example.com` avec le texte "Visitez ce site"
 
 > Réponse :  
->  
+>  <!DOCTYPE html>
+   <head>
+   <title>Mon premier site</title>
+   </head>
+   <body>
+   <img href="photo.jpg">
+   <a href="https://example.com">Visitez ce site</a>
+   </body>
+   </html>
 
 
 
@@ -90,51 +98,51 @@
 14. Quelle commande initialise un dépôt Git ?  
    - [ ] `git start`  
    - [ ] `git init`  
-   - [ ] `git create`  
+   - [X] `git create`  
 
 15. Quelle commande permet d’ajouter des fichiers à la zone de préparation (staging area) ?  
-   - [ ] `git add`  
+   - [X] `git add`  
    - [ ] `git stage`  
    - [ ] `git push`  
 
 16. Quelle commande permet d’enregistrer les changements dans l’historique du dépôt ?  
    - [ ] `git save`  
-   - [ ] `git commit`  
+   - [X] `git commit`  
    - [ ] `git record`  
 
 17. Quelle commande permet de consulter l’historique des commits ?  
    - [ ] `git status`  
-   - [ ] `git log`  
+   - [X] `git log`  
    - [ ] `git history`  
 
 18. Quelle commande permet de cloner un dépôt distant ?  
    - [ ] `git copy`  
-   - [ ] `git clone`  
+   - [X] `git clone`  
    - [ ] `git pull`  
 
 19. Quelle commande affiche les fichiers modifiés mais non encore commités ?  
-   - [ ] `git status`  
+   - [X] `git status`  
    - [ ] `git show`  
    - [ ] `git diff`  
 
 20. Quelle commande permet d’envoyer les commits locaux vers le dépôt distant ?  
    - [ ] `git send`  
    - [ ] `git upload`  
-   - [ ] `git push`  
+   - [X] `git push`  
 
 21. Quelle commande permet de récupérer les modifications du dépôt distant sans les fusionner ?  
    - [ ] `git fetch`  
-   - [ ] `git pull`  
+   - [X] `git pull`  
    - [ ] `git merge`  
 
 22. Quelle commande permet de créer une nouvelle branche nommée `develop` ?  
    - [ ] `git branch develop`  
-   - [ ] `git create develop`  
+   - [X] `git create develop`  
    - [ ] `git checkout develop`  
 
 23. Quelle commande permet de changer de branche ?  
    - [ ] `git change`  
-   - [ ] `git switch`  
+   - [X] `git switch`  
    - [ ] `git swap`  
 
 ---
@@ -144,14 +152,14 @@
 24. (2 pts) Expliquez la différence entre `git clone`, `git pull`.  
 
 > Réponse :  
-> 
+> git clone permet de copier un fichier déjà existant l'ordinateur alors que git pull permet de revoir des mises à jours des fichiers via une base de données externe (Github)
 
 ---
 
 25. (1 pt) Quelle est la différence entre un dépôt local et un dépôt distant ?  
 
 > Réponse :  
-> 
+> Un dépôt local est un dépôt auquel on peut on peut avoir accès sur un seul ordinateur alors qu'on dépôt distant est un dépôt auquel on peut avoir accès sur plusieurs ordinateur quelque soit leurs positions
 
 ---
 
@@ -162,4 +170,7 @@
 - et envoyer ce dépôt vers un dépôt distant nommé `origin` sur la branche `main`.  
 
 > Réponse :  
-> 
+> git create
+git add index.html
+git commit
+git push origin/main
