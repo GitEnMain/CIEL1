@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
         role: "le maitre du basket",
         email: "babahomer98@gmail.com",
         github: "https://github.com/babahomer1",
-        web: "docs/pages/Led/index.html",
+        web: "docs/pages/oscilloscope/index.html",
         tech: ["le plus fort","prodiges"],
         bio: "le seul qui puisse me battre,c'est moi même"
       },
