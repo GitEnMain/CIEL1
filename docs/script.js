@@ -79,6 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       { 
         name: "K̵̢̢̨̛̛̛̛̛̛̫͈̪̺̜͕̪̦͕͚̙̘̞͆̀̂́̋̎̒̾͆͗̓̓͂̑̋̑̄͛̌͂̉̉̒̈́̇͛́̓́̽̄̇͒̎͑̒̍̀͑͊́͊̒̀̾̅͆͒́̀͆̅̂͒̊̅̿̈̀̽͊́̿̌̄͂̒͌̄̎͌͗̇͂͊̍̒̔̌̿̎͋́̊̍̌́̀̑́̿͊̂̆͒͒͊͊̑́̽̓͂̿̃́̀͌̉̑́͐̋̆̎̒̊̈́͌́̑̉͛̊̀̃̽̓̔̆̽̐͐̑̿̐͑͋̂̾̇͑͌̒̂͌̐̈́́̍̇̽̆́̄͗̑̅͊͋̀͗͂̈́̒́̔̀̋̆́͌̅́̒̈́̔̆̈́̈́̍̂̅̈́̿̔̀̓̕͘̚̚̕͘͘͘͘̕͘̕̚͝͝͝͠͠͠͝͝͝͝͠ȩ̶̢̧̨̧̨̧̛̛͖̤͓̲̹̹͈̜̠̭̲̮̠̲̟̯̖͓̞̦̮̣̞͉͈̤̺͚̼́͋̅͊́̏͐̈̃̔͌̊̃̍̋̀̊̍͐̋̇̽̓͌́͌̉́̎̄́̍͒́̒͌̎͌̋̕̚͝͝͠͠ͅͅn̷̨̧̢̨̧̨̡̧̡̧̢̢̧̧̢̛̛̛̗̠̳͓̟͕̪̹̱͎̜̙̜̱̹͙̪͇̺̜͕̯͚͓̩̰̺͓̙̭̙̮̮̻͇̺̻̝͓̠̮̫̮̗̼̣̗̞̮̻͕̠͈̘͚̦̰̰̼̺̣̫̹̖̘̙̯̹̭͍̜͍̲̻̞̭̖͙͉̖͕͙̞̮̹̮̘̙̣̦̫̻̺̙̤̹̙͎̰̮̝͎̖͈̦̣̥̯͎͇̲̠̪̞̱̩͖̪̞͎̣̣̩̗̖̟̥̖̯̤̬͈̱̞̝̗̳̩̤̞̱̹̖̤̩̥͚̳̰̟̦̜͓̙̲͉̖̞͓̙̖̤̻̳̺̺̠̋̿̑͒̃̾̀̑̓̆͗͑̈́̔̆̄̒̈́͒̈͐̑̏̎͊̄̈̏̑͐̂͊̂͛̈̀̆́̔̅͛̅̒͊̉̇̊̈́̄͐́̽̀̇͋̄́͌̒̈́̒̿͑̊̔̆͆͒͊̄́̅͋̍̌̒͆̄͗̅̑̐̇͆̔̈̍͑́͆̀̉̃̂͒͋̏̈͊́̔̇̍̊̂͌̐̀͒̌̀̍̿̌̄̾̓͛͌̀̈͋̾͌̀͆̉̈́̂̑́̃̎̎̑̿̈́̀̈͌͒̇̍̄̀̈̈́̈́͂̆̌́̍̈́̿͒̓̎̆͌͑̊̈̄̅͛̌̓̒̇́͘̚͘̕͘̕͘̕̚̕̚̕͘̕͘͘͘̕̚͘͘͘͜͜͜͜͠͝͝͝͝͝͝͠͝͝͠͝͝͝͠͠͠͝͠͠͠ͅͅͅͅͅȧ̶̛̛̛̛̻̺̹̱͍̘̦͍̖̥̰̤̳̦̩͚̱͔̞͉̘̊̀̍̔̆̀̿̎̒̽̇̈́͋́̋̃͗̄̃̐͂͋̐͛̋̍́̄͋̈́̾̈͑̎̓̑͌̄̓̔͆͐͛̇̌́̿͌͑͋̀́̑͛̿̄̀̆͗́͂̓̍̿́̀́̎́͂̆̏͊̆̏̄̔̏̊̊̾̾̽̅̎̓̐͆̃͋̀̂̑̎̾̀̅̃̈́̋̈̿̉̐́̃̀̓̾̃̃̒̌̈́̽̿̉̄́͛̀̉̈̓̌̊̓̈̀̽̉͐̅̃̇̋̐̐́̂̈́̏̃̌̔̎̾̎͗͐͋͆̆̄̌̇̈́̿̅̓͗̉̏̎̓̀̽̅͒̓͗̄͌͐̾̈͒̌̎͛̀̆̄̾̅̑̾̇̀̍̉̀̓̋͑̂̆́̈́͛̓̑͐̀̏̇̽̀͂͆͒͐̀̓̔̎̊̽̎͑̽͌̏̄͐̃̽͗̽̚̚͘̚̚̕̚̕͘̕͘̚͘͘̚͘͝͝͝͝͝͠͝͠͠͝͠͝͝͝͝͠͝͠n̵̡̧̢̨̡̡̡̧̢̛̛̛͕̦̠̩̝͖͕͇̣̜̖̬̝͔̺̩͓̺̮̺̖̤̩̥̘̣̝̯͎̯̻̪̥̱̬̤͙̝̖̞͚͍̰͉͎̗̳͈͉̳͉̣̠̫̮͚͓̯̰̺̗̥͖̘͖̘̘͉̲̙̳̝̳̹̪̲̮̻͚͎̮̦͖̫͙͔̠͉̰̻̤̲͚͍͎̖͔͔̼̭̜͛̅̾̿͗͋̋̅̾͋͑̅̇̌̓̈̅̑̓̂͑̽͊̿́̈͒̀̿̆̐͌͊̇̈̉̓͌̄̒́̎̂̓͂̊͆̋̓͛͛́̂̀̉̈́̎͐̇͗̑̒̇̆͆̈́̈̍̔͂̌̓̈͐͒̈́̃͆̿̍̊̇͑̓̌̇̑̈́̂̓̐̿̑͒̂͑͒́͛̈́̆͋͆̋̀̀̊̈̔̄͆́̓̏̓͊̓̇̊̿̾̂̊̌̚͘̚͘̚̚͜͜͜͜͠͠͝͠͠͠͝͠͝͝ͅͅͅͅͅ",
+        name: "Kénan 01234567891011121314151617181920",
         photo: "pages/Condensateur/img/otronic-10x-condensateur-1uf-50v-electrolytique-el.webp",
         role: "codeur html css et js",
         email: "mailer-daemon@googlemail.com",
@@ -96,8 +97,29 @@ document.addEventListener("DOMContentLoaded", function () {
         web: "pages/Led/index.html",
         tech: ["Block dans tes chicos", "Smashhhhhh", "Miaoumax"],
         bio: "Oue pas mal"
-
+      },
+      {
+      name: "Mr-LucGour",
+      photo: "img/songoku.png",
+      role: "Combattant de Tilted Tower",
+      email: "lucasgourdain772@gmail.com",
+      github: "https://github.com/MR-LucGour",
+      web: "",
+      tech: ["Rapidité , pro builder , fragger/igl "],
       },   
+<<<<<<< HEAD
+      
+      {
+        name: "Noah shinigami",
+        photo: "img/ichigo.jpg",
+        role: "Arracheur d'Hollow",
+        email: "brayannabassa@gmail.com",
+        github: "https://github.com/noahabassa-bot",
+        web: "pages/Led/index.html",
+        tech: ["Bankai", "Bankai", "White"],
+        bio: "Shinigami remplacant"
+      },   
+=======
       {
         name: "Enzo Salutoi",
         photo: "img/black.jpg",
@@ -118,6 +140,17 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["Astartes Ridiculous","debilus primus"],
         bio: "Ouga bouga mon cerveau c'est de la grosse purée waagh"
       },
+      {
+        name: "Antony daiki",
+        photo: "img/daiki.jpg",
+        role: "le maitre du basket",
+        email: "babahomer98@gmail.com",
+        github: "https://github.com/babahomer1",
+        web: "",
+        tech: ["le plus fort","prodiges"],
+        bio: "le seul qui puisse me battre,c'est moi même"
+      },
+>>>>>>> 58405e4b5f3805acefc64850a8214d1a7563e0e1
 
   ];
   
