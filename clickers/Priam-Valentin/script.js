@@ -175,16 +175,22 @@ function updateDisplay() {
 
   autoClickStatusEl.textContent = autoClickers > 0 ? "On" : "Off";
 
-  // Changer le personnage selon le multiplicateur + ajuster le bonus
+  // Changer le personnage selon le multiplicateur
   if (multiplier < 10) {
     manga.src = "img/goku.png";
     upgradeIncrement = 0.25;
   } else if (multiplier < 30) {
     manga.src = "img/vegeta.png";
-    upgradeIncrement = 0.5;
-  } else {
+    upgradeIncrement = 0.75;
+  } else if (multiplier < 70) {
     manga.src = "img/gohan.png";
-    upgradeIncrement = 1;
+    upgradeIncrement = 1,5;
+  } else if (multiplier < 150) {
+    manga.src = "img/broly.png";
+    upgradeIncrement = 3;
+  } else {
+    manga.src = "img/freezer.png";
+    upgradeIncrement = 6;
   }
 
 
