@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
         web: "pages/Microprocesseur/index.html",
         tech: ["Singe suprême", "Angles morts", "Coup de pression du daron"],
         bio: "Singe de 15 mêtre de haut et Maitre des Capybara",
-        clic : "../clickers/Priam - Valentin/index.html"
+        clic : "/CIEL1/clickers/Priam-Valentin/index.html"
       },      
       {
         name: "Kelan Martvill",
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
         web: "pages/Led/index.html",
         tech: ["Block dans tes chicos", "Smashhhhhh", "Miaoumax"],
         bio: "Oue pas mal",
-        clic : "../clickers/Priam - Valentin/index.html"
+        clic : "/CIEL1/clickers/Priam-Valentin/index.html"
       },
       {
       name: "Mr-LucGour",
@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
         role: "On est 55 Milliards sur Terre",
         email: "abch.70.234.5@gmail.com",
         github: "https://github.com/CO6z",
-        web: "",
+        web: "docs/pages/Connecteur/index.html",
         tech: ["j'avais le rouleau de pq collé au cul"],
         bio: "jchuis parti comme un clochard"
       },
