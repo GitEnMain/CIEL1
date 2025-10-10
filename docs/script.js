@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
       email: "lucasgourdain772@gmail.com",
       github: "https://github.com/MR-LucGour",
       web: "pages/Carte-Reseaux/index.html",
-      tech: ["Rapidité , pro builder , fragger/igl "],
+      tech: ["Rapidité , pro builder , fragger/igl , Trop fort au snipe "],
       },
       {
         name: "Noah shinigami",
