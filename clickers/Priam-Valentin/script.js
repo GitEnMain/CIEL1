@@ -100,6 +100,7 @@ function formatTime(seconds) {
   return result.trim();
 }
 
+// --- TIMER MODIFIÉ ---
 setInterval(() => {
   seconds++;
   timeEl.textContent = formatTime(seconds);
@@ -175,8 +176,7 @@ function startAutoClick() {
 function updateDisplay() {
   scoreEl.textContent = score.toFixed(2);
   multiplierEl.textContent = multiplier;
-  timeEl.textContent = formatTime(seconds); 
-
+  timeEl.textContent = seconds + 's';
   autoClickStatusEl.textContent = autoClickers > 0 ? "On" : "Off";
 
 
