@@ -138,7 +138,6 @@ document.addEventListener("DOMContentLoaded", function () {
         bio: "Ouga bouga mon cerveau c'est de la grosse purée waagh"
       },
       {
-<<<<<<< HEAD
         name: "Amine Uchiha",
         photo: "img/Obitolegoat.jpg",
         role: "Chef manipulateur de l'Akatsuki; Détenteur du pouvoir du Rikudo",
@@ -147,9 +146,8 @@ document.addEventListener("DOMContentLoaded", function () {
         web: "pages/resistor/resistor.html",
         tech: ["Sharingan; Mangekyo Sharingan; Kamui; Genjutsu; Taijutsu; Senjutsu; Izanagi"],
         bio: "De héros brisé à empereur masqué, il a manipulé les ombres et fait plier le monde à sa volonté"
-      }
-=======
-<<<<<<< HEAD
+      },
+      {
         name: "Halil-Enes Kuzu",
         photo: "img/TK.jpg"
         role: "On est 55 Milliards sur Terre",
@@ -159,9 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["j'avais le rouleau de pq collé au cul fdp"],
         bio: "jchuis parti comme un clochard"
       },
->>>>>>> ace04dca86b22cc924bacab221b2302816babfa0
-
-=======
+      {
         name: "Antony daiki",
         photo: "img/daiki.jpg",
         role: "le maitre du basket",
@@ -171,7 +167,6 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["le plus fort","prodiges"],
         bio: "le seul qui puisse me battre,c'est moi même"
       },
->>>>>>> d358de3b246d0e9d1234ad95910cc341f6ff8686
   ];
   
   
