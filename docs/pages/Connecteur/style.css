@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     line-height: 1.6;
     margin: 20px;
-    background-color: #5d08be;
+    background-color: #ff0202;
     color: #ffffff;
 }
 .container {
@@ -11,10 +11,10 @@ body {
     background: #210036;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(47, 0, 255, 0.1);
 }
 h1 {
-    color: #ff0000;
+    color: #9b9439;
 }
 img {
     max-width: 200%;
