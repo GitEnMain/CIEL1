@@ -29,7 +29,7 @@ let autoClickCost = 2000;
 // --- RÉFÉRENCES DOM ---
 const scoreEl = document.getElementById('score');
 const multiplierEl = document.getElementById('multiplier');
-const goofy one = document.getElementById('goofy one');
+const goofy_one = document.getElementById('goofy one');
 const upgradeBtn = document.getElementById('upgrade');
 const autoClickBtn = document.getElementById('autoclick');
 const timeEl = document.getElementById('time');
