@@ -174,6 +174,8 @@ function updateDisplay() {
     manga.src = "img/goku.png";
   } else if (multiplier >= 10) {
     manga.src = "img/vegeta.png";
+  } else if (multiplier >= 50) {
+    manga.src = "img/gohan.png";
   } else {
     manga.src = "img/goku.png";
   }

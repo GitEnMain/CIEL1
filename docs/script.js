@@ -65,7 +65,8 @@ document.addEventListener("DOMContentLoaded", function () {
         github: "https://github.com/Priammm",
         web: "pages/Microprocesseur/index.html",
         tech: ["Singe suprême", "Angles morts", "Coup de pression du daron"],
-        bio: "Singe de 15 mêtre de haut et Maitre des Capybara"
+        bio: "Singe de 15 mêtre de haut et Maitre des Capybara",
+        clic : "../clickers/Priam - Valentin/index.html"
       },      
       {
         name: "Kelan Martvill",
@@ -96,7 +97,8 @@ document.addEventListener("DOMContentLoaded", function () {
         github: "https://github.com/EZYomi",
         web: "pages/Led/index.html",
         tech: ["Block dans tes chicos", "Smashhhhhh", "Miaoumax"],
-        bio: "Oue pas mal"
+        bio: "Oue pas mal",
+        clic : "../clickers/Priam - Valentin/index.html"
       },
       {
       name: "Mr-LucGour",
@@ -149,7 +151,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       {
         name: "Halil-Enes Kuzu",
-        photo: "img/TK.jpg",
+        photo: "img/tk.jpg",
         role: "On est 55 Milliards sur Terre",
         email: "abch.70.234.5@gmail.com",
         github: "https://github.com/CO6z",
@@ -163,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
         role: "le maitre du basket",
         email: "babahomer98@gmail.com",
         github: "https://github.com/babahomer1",
-        web: "",
+        web: "docs/pages/Led/index.html",
         tech: ["le plus fort","prodiges"],
         bio: "le seul qui puisse me battre,c'est moi même"
       },
@@ -206,6 +208,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
         <path d="M2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20" stroke="currentColor" stroke-width="2"/>
       </svg> Web</a>` : '';
+    const clic = p.clic ? `<a class="btn" target="_blank" rel="noopener"  href="${sanitize(p.clic)}" title="Page Clicker">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+        <path d="M2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20" stroke="currentColor" stroke-width="2"/>
+      </svg> Clicker</a>` : '';
     
   
     return `
@@ -222,7 +229,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
         <div class="card-footer">
           <div class="btn-row space-between">${email} ${gh}</div>
-          <div class="btn-row center">${web}</div>
+          <div class="btn-row space-between">${web} ${clic}</div>
         </div>
       </article>`;
   }

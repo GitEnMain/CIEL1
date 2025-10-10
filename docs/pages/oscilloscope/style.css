@@ -1,0 +1,27 @@
+body {
+    background-color: #000000;
+    text-align: center;
+}
+.container {
+    max-width: 1400px;
+    margin: auto;
+    background: #d3d3d3;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h2 {
+    color: #d2b48c;
+}
+p {
+    color: #5d5d5d;
+}
+
+li  {
+    color:#5d5d5d
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
