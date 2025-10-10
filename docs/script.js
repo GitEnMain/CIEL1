@@ -106,12 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
       github: "https://github.com/MR-LucGour",
       web: "",
       tech: ["Rapidité , pro builder , fragger/igl "],
-<<<<<<< HEAD
-      },   
-      
-=======
       },
->>>>>>> 3d7163e24a60bd3f6b8c5c1974cd4e9e40c21a0a
       {
         name: "Noah shinigami",
         photo: "img/ichigo.jpg",
@@ -152,10 +147,6 @@ document.addEventListener("DOMContentLoaded", function () {
         tech: ["le plus fort","prodiges"],
         bio: "le seul qui puisse me battre,c'est moi même"
       },
-<<<<<<< HEAD
-.
-=======
->>>>>>> 3d7163e24a60bd3f6b8c5c1974cd4e9e40c21a0a
   ];
   
   
