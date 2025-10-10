@@ -1,43 +1,46 @@
+10/20
+
+
 ## Partie 1 : HTML (10 points)
 
 ### QCM (5 points – 0,5 pt/question)
 
-1. Quelle est la signification de HTML ?  
+1. Quelle est la signification de HTML ?  0.5
    - [ ] Hyperlinks and Text Markup Language  
    - [x] Hyper Text Markup Language  
    - [ ] Home Tool Markup Language  
 
-2. Quelle balise permet d’afficher le titre d’une page dans l’onglet du navigateur ?  
+2. Quelle balise permet d’afficher le titre d’une page dans l’onglet du navigateur ?
    - [ ] `<head>`  
    - [x] `<title>`  
    - [ ] `<h1>`  
 
-3. Quelle balise permet d’insérer une image ?  
+3. Quelle balise permet d’insérer une image ?
    - [x] `<img>`  
    - [ ] `<image>`  
    - [ ] `<picture>`  
 
-4. Quelle balise est utilisée pour créer un lien hypertexte ?  
+4. Quelle balise est utilisée pour créer un lien hypertexte ?
    - [x] `<a>`  
    - [ ] `<link>`  
    - [ ] `<href>`  
 
-5. Quel attribut est obligatoire dans la balise `<img>` ?  
+5. Quel attribut est obligatoire dans la balise `<img>` ? 
    - [ ] `src`  
    - [ ] `href`  
    - [x] `alt`  
 
-6. Quelle est la bonne syntaxe pour créer une liste non ordonnée ?  
+6. Quelle est la bonne syntaxe pour créer une liste non ordonnée ?
    - [x] `<ul><li>Élément</li></ul>`  
    - [ ] `<ol><li>Élément</li></ol>`  
    - [ ] `<li><ul>Élément</ul></li>`  
 
-7. La balise `<strong>` sert à :  
+7. La balise `<strong>` sert à : 
    - [x] Mettre le texte en gras  
    - [ ] Souligner le texte  
    - [ ] Centrer le texte  
 
-8. Quelle est la structure minimale correcte d’un document HTML ?  
+8. Quelle est la structure minimale correcte d’un document HTML ? 
    - [x] `<html><body></body></html>`  
    - [ ] `<html><head></head><body></body></html>`  
    - [ ] `<body><html></html></body>`  
@@ -85,24 +88,24 @@
 
 ## Partie 2 : Git (10 points)
 
-### QCM (5 points – 0,5 pt/question)
+### QCM (5 points – 0,5 pt/question) 3.5/5
 
 14. Quelle commande initialise un dépôt Git ?  
    - [x] `git start`  
    - [ ] `git init`  
    - [ ] `git create`  
 
-15. Quelle commande permet d’ajouter des fichiers à la zone de préparation (staging area) ?  
+15. Quelle commande permet d’ajouter des fichiers à la zone de préparation (staging area) ? 
    - [x] `git add`  
    - [ ] `git stage`  
    - [ ] `git push`  
 
-16. Quelle commande permet d’enregistrer les changements dans l’historique du dépôt ?  
+16. Quelle commande permet d’enregistrer les changements dans l’historique du dépôt ? 
    - [ ] `git save`  
    - [x] `git commit`  
    - [ ] `git record`  
 
-17. Quelle commande permet de consulter l’historique des commits ?  
+17. Quelle commande permet de consulter l’historique des commits ? 
    - [ ] `git status`  
    - [x] `git log`  
    - [ ] `git history`  
@@ -127,19 +130,19 @@
    - [ ] `git pull`  
    - [x] `git merge`  
 
-22. Quelle commande permet de créer une nouvelle branche nommée `develop` ?  
+22. Quelle commande permet de créer une nouvelle branche nommée `develop` ? 
    - [x] `git branch develop`  
    - [ ] `git create develop`  
    - [ ] `git checkout develop`  
 
-23. Quelle commande permet de changer de branche ?  
+23. Quelle commande permet de changer de branche ? 
    - [x] `git change`  
    - [ ] `git switch`  
    - [ ] `git swap`  
 
 ---
 
-### Questions rédigées (5 points)
+### Questions rédigées (5 points) 2.5/5
 
 24. (2 pts) Expliquez la différence entre `git clone`, `git pull`.  
 

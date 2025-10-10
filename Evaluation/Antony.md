@@ -2,52 +2,52 @@
 
 ### QCM (5 points – 0,5 pt/question)
 
-1. Quelle est la signification de HTML ?  
+1. Quelle est la signification de HTML ?
    - [ ] Hyperlinks and Text Markup Language  
    - [x] Hyper Text Markup Language  
    - [ ] Home Tool Markup Language  
 
-2. Quelle balise permet d’afficher le titre d’une page dans l’onglet du navigateur ?  
+2. Quelle balise permet d’afficher le titre d’une page dans l’onglet du navigateur ?
    - [ ] `<head>`  
    - [x] `<title>`  
    - [ ] `<h1>`  
 
-3. Quelle balise permet d’insérer une image ?  
+3. Quelle balise permet d’insérer une image ?
    - [x] `<img>`  
    - [ ] `<image>`  
    - [ ] `<picture>`  
 
-4. Quelle balise est utilisée pour créer un lien hypertexte ?  
+4. Quelle balise est utilisée pour créer un lien hypertexte ?
    - [ ] `<a>`  
    - [x] `<link>`  
    - [ ] `<href>`  
 
-5. Quel attribut est obligatoire dans la balise `<img>` ?  
+5. Quel attribut est obligatoire dans la balise `<img>` ?
    - [x] `src`  
    - [ ] `href`  
    - [ ] `alt`  
 
-6. Quelle est la bonne syntaxe pour créer une liste non ordonnée ?  
+6. Quelle est la bonne syntaxe pour créer une liste non ordonnée ?
    - [x] `<ul><li>Élément</li></ul>`  
    - [ ] `<ol><li>Élément</li></ol>`  
    - [] `<li><ul>Élément</ul></li>`  
 
-7. La balise `<strong>` sert à :  
+7. La balise `<strong>` sert à :
    - [x] Mettre le texte en gras  
    - [ ] Souligner le texte  
    - [x] Centrer le texte  
 
-8. Quelle est la structure minimale correcte d’un document HTML ?  
+8. Quelle est la structure minimale correcte d’un document HTML ?
    - [ ] `<html><body></body></html>`  
    - [x] `<html><head></head><body></body></html>`  
    - [ ] `<body><html></html></body>`  
 
-9. Quelle balise permet d’insérer un commentaire dans le code HTML ?  
+9. Quelle balise permet d’insérer un commentaire dans le code HTML ?
    - [x] `<!-- commentaire -->`  
    - [ ] `// commentaire`  
    - [ ] `/* commentaire */`  
 
-10. Quelle balise permet d’insérer un paragraphe ?  
+10. Quelle balise permet d’insérer un paragraphe ?
     - [x] `<p>`  
     - [ ] `<text>`  
     - [ ] `<paragraph>`  
@@ -56,7 +56,7 @@
 
 ### Questions rédigées (5 points)
 
-11. (1 pt) Expliquez la différence entre une balise ouvrante et une balise fermante en HTML, avec un exemple.  
+11. (1 pt) Expliquez la différence entre une balise ouvrante et une balise fermante en HTML, avec un exemple.
 
 > Réponse :
 <p> et une balise ouvrante sert a dire se qu'on fait dedan exemple la c est un paragraphe
@@ -81,12 +81,7 @@
    </body>
    </html>
 
-
-
-
----
-
-13. (2 pts) Quelle est la différence entre les balises `<div>` et `<span>` ? Donnez un exemple d’utilisation typique pour chacune.  
+13. (2 pts) Quelle est la différence entre les balises `<div>` et `<span>` ? Donnez un exemple d’utilisation typique pour chacune.
 
 > Réponse :  
 >  <div> permet de cree different partie
@@ -97,12 +92,12 @@
 
 ### QCM (5 points – 0,5 pt/question)
 
-14. Quelle commande initialise un dépôt Git ?  
+14. Quelle commande initialise un dépôt Git ?
    - [ ] `git start`  
    - [x] `git init`  
    - [ ] `git create`  
 
-15. Quelle commande permet d’ajouter des fichiers à la zone de préparation (staging area) ?  
+15. Quelle commande permet d’ajouter des fichiers à la zone de préparation (staging area) ?
    - [x] `git add`  
    - [ ] `git stage`  
    - [] `git push`  
