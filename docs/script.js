@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
         role: "On est 55 Milliards sur Terre",
         email: "abch.70.234.5@gmail.com",
         github: "https://github.com/CO6z",
-        web: "dpages/Connecteur/index.html",
+        web: "pages/Connecteur/index.html",
         tech: ["j'avais le rouleau de pq collé au cul"],
         bio: "jchuis parti comme un clochard"
       },
