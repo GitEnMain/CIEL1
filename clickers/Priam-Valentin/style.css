@@ -12,7 +12,37 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
+}
+
+#btn_home {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 0.6rem 1rem;
+  width: 50px;
+  height: 50px;
+  max-width: 50px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #FF6B00; 
+  color: #fff;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: background 0.3s, transform 0.3s;
+}
+
+#btn_home img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+#btn_home:hover {
+  background: #FF8C1A; 
+  transform: translateY(-2px);
 }
 
 #theme-toggle {
@@ -24,15 +54,26 @@ body {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  background: #FF6B00; /* orange Goku */
+  background: #FF6B00; 
   color: #fff;
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-  transition: background 0.3s;
+  transition: background 0.3s, transform 0.3s;
+}
+
+/* --- Animation lors du clic sur le bouton de thème --- */
+#theme-toggle.animate {
+  animation: rotateIcon 0.5s ease;
+}
+
+@keyframes rotateIcon {
+  from { transform: rotate(0deg) scale(1); }
+  to { transform: rotate(180deg) scale(1.1); }
 }
 
 #theme-toggle:hover {
-  background: #FF8C1A; /* orange plus clair */
+  background: #FF8C1A; 
+  transform: translateY(-2px);
 }
 
 #rdata {
@@ -41,15 +82,16 @@ body {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  background: #004CFF; /* bleu Vegeta */
+  background: #004CFF; 
   color: #fff;
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-  transition: background 0.3s;
+  transition: background 0.3s, transform 0.3s;
 }
 
 #rdata:hover {
-  background: #336BFF; /* bleu clair hover */
+  background: #336BFF; 
+  transform: translateY(-2px);
 }
 
 #shop-content {
@@ -117,8 +159,6 @@ body {
 }
 
 /* --- CLICK AREA --- */
-
-/* Optionnel : centrer tout le bloc si nécessaire */
 .click-zone {
   display: flex;
   flex-direction: column;
@@ -202,19 +242,18 @@ body::before {
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
-  margin-bottom: -1rem; /* rapproche du clicker */
+  margin-bottom: -1rem; 
 }
 
 /* --- LOGO IMAGE --- */
 .logo {
-  width: 360px;             /* plus large */
-  height: auto;             /* conserve les proportions */
+  width: 360px;            
+  height: auto;             
   max-width: 90%;
   filter: drop-shadow(0 0 12px rgba(255, 107, 0, 0.7));
   animation: floatLOGO 4s ease-in-out infinite;
 }
 
-/* Animation flottante */
 @keyframes floatLOGO {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
@@ -231,11 +270,11 @@ body::before {
   }
 }
 
-
 /* --- MODE SOMBRE --- */
 body.dark {
   background: linear-gradient(180deg, #0A0C2A 0%, #1A1C3A 100%); 
   color: #FFD700; 
+  transition: all 0.4s ease;
 }
 
 body.dark h1 {
@@ -275,10 +314,29 @@ body.dark footer {
   border-top: 2px solid #FFD700;
 }
 
+/* --- BOUTONS FIXES EN MODE SOMBRE --- */
+body.dark #btn_home,
+body.dark #theme-toggle,
+body.dark #rdata {
+  background: linear-gradient(145deg, #004CFF, #D62828);
+  color: #FFD700;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+body.dark #btn_home:hover,
+body.dark #theme-toggle:hover,
+body.dark #rdata:hover {
+  background: linear-gradient(145deg, #FF6B00, #D62828);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.45);
+}
+
 /* --- MODE CLAIR --- */
 body.light {
   background: linear-gradient(180deg, #FFF2CC 0%, #FFE0A8 100%); 
   color: #1c1a1a;
+  transition: all 0.4s ease;
 }
 
 body.light header {
@@ -314,6 +372,24 @@ body.light #shop-content button:hover {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
 }
 
+/* --- BOUTONS FIXES EN MODE CLAIR --- */
+body.light #btn_home,
+body.light #theme-toggle,
+body.light #rdata {
+  background: linear-gradient(90deg, #FF6B00, #FFD700);
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+body.light #btn_home:hover,
+body.light #theme-toggle:hover,
+body.light #rdata:hover {
+  background: linear-gradient(90deg, #FF8C1A, #FFE066);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
 /* --- BOUTONS DÉSACTIVÉS --- */
 #shop-content button.disabled,
 #shop-content button:disabled {
@@ -327,7 +403,6 @@ body.light #shop-content button:hover {
   background-image: none !important;
 }
 
-/* Désactive totalement les effets de survol */
 #shop-content button.disabled:hover,
 #shop-content button:disabled:hover {
   background: #777 !important;
@@ -336,4 +411,3 @@ body.light #shop-content button:hover {
   box-shadow: none !important;
   background-image: none !important;
 }
-
