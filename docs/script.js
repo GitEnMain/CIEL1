@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
         web: "pages/Microprocesseur/index.html",
         tech: ["Singe suprême", "Angles morts", "Coup de pression du daron"],
         bio: "Singe de 15 mêtre de haut et Maitre des Capybara",
-        clic : "/CIEL1/clickers/Priam-Valentin/index.html"
+        clic : "../CIEL1/clickers/Priam-Valentin/index.html"
       },      
       {
         name: "Kelan Martvill",
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
         web: "pages/Led/index.html",
         tech: ["Block dans tes chicos", "Smashhhhhh", "Miaoumax"],
         bio: "Oue pas mal",
-        clic : "/CIEL1/clickers/Priam-Valentin/index.html"
+        clic : "../CIEL1/clickers/Priam-Valentin/index.html"
       },
       {
       name: "Mr-LucGour",
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
       role: "Combattant de Tilted Tower",
       email: "lucasgourdain772@gmail.com",
       github: "https://github.com/MR-LucGour",
-      web: "pages/Carte-Reseaux/index.html",
+      web: "pages/Carte-Reseaux/carte.html",
       tech: ["Rapidité , pro builder , fragger/igl , Trop fort au snipe "],
       },
       {
@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
         role: "On est 55 Milliards sur Terre",
         email: "abch.70.234.5@gmail.com",
         github: "https://github.com/CO6z",
-        web: "docs/pages/Connecteur/index.html",
+        web: "dpages/Connecteur/index.html",
         tech: ["j'avais le rouleau de pq collé au cul"],
         bio: "jchuis parti comme un clochard"
       },
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
         role: "le maitre du basket",
         email: "babahomer98@gmail.com",
         github: "https://github.com/babahomer1",
-        web: "docs/pages/oscilloscope/index.html",
+        web: "pages/oscilloscope/index.html",
         tech: ["le plus fort","prodiges"],
         bio: "le seul qui puisse me battre,c'est moi même"
       },
